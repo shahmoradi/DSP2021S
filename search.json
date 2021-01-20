@@ -1,0 +1,35 @@
+[
+	
+		{
+		  "title"      : "Lecture 1: Version Control Systems, Git, and GitHub",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/lecture/1-vcs",
+		  "date"       : "2021-01-20 00:00:00 -0600",
+		  "shortdate"  : "January 20, 2021"
+		} ,
+	
+		{
+		  "title"      : "Homework 1: Version Control Using Git and Github",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/homework/1-vcs",
+		  "date"       : "2021-01-20 00:00:00 -0600",
+		  "shortdate"  : "January 20, 2021"
+		} ,
+	
+		{
+		  "title"      : "Announcement 1: Assessing your programming knowledge and interests",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/announcement/1-assessing-your-knowledge-and-interests",
+		  "date"       : "2021-01-20 00:00:00 -0600",
+		  "shortdate"  : "January 20, 2021"
+		} ,
+	
+		{
+		  "title"      : "Announcement 0: Student-professor connection day",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/announcement/0-student-professor-connection-day",
+		  "date"       : "2021-01-20 00:00:00 -0600",
+		  "shortdate"  : "January 20, 2021"
+		} 
+	
+]
