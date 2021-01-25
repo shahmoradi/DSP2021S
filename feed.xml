@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DSP2021S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DSP2021S/" />
-<updated>2021-01-25T14:27:47-06:00</updated>
+<updated>2021-01-25T14:29:04-06:00</updated>
 <id>http:/DSP2021S/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -109,9 +109,7 @@ error: Cannot delete branch 'test' checked out at 'C:/Users/Amir/git/foo'
 
 &lt;p&gt;The survey results will be posted here for your knowledge, once it is complete.&lt;/p&gt;
 
-&lt;p&gt;The following are the summaries of the responses to the survey questions. The total number of survey respondents is 20. 
-It appears that at least half of the class, knows at least one programming language at some elementary level. 
-Also it appears that almost everyone in this class prefers Python to other choices for programming.&lt;/p&gt;
+&lt;p&gt;The following are the summaries of the responses to the survey questions. The total number of survey respondents is 20.&lt;/p&gt;
 
 &lt;!-- include.path must be given relative to site.url, which is the project's root directory --&gt;
 
