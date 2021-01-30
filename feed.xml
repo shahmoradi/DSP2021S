@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DSP2021S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DSP2021S/" />
-<updated>2021-01-27T14:11:52-06:00</updated>
+<updated>2021-01-29T21:40:27-06:00</updated>
 <id>http:/DSP2021S/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -82,7 +82,11 @@ will display the following text highlighted as &lt;em&gt;bash&lt;/em&gt; code, i
 error: Cannot delete branch 'test' checked out at 'C:/Users/Amir/git/foo'
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; &lt;a href=&quot;https://www.cdslab.org/recipes/programming/version-control-using-git-github/version-control-using-git-github&quot; target=&quot;_blank&quot;&gt;Version-control using Git and GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Only Part 1&lt;/strong&gt; of &lt;a href=&quot;https://www.cdslab.org/recipes/programming/version-control-using-git-github/version-control-using-git-github&quot; target=&quot;_blank&quot;&gt;Version-control using Git and GitHub&lt;/a&gt; (&lt;strong&gt;Due Monday Feb 1, 2021 at 2:30 pm&lt;/strong&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Only Part 2&lt;/strong&gt; of &lt;a href=&quot;https://www.cdslab.org/recipes/programming/version-control-using-git-github/version-control-using-git-github&quot; target=&quot;_blank&quot;&gt;Version-control using Git and GitHub&lt;/a&gt; (&lt;strong&gt;Due Friday Feb 5, 2021 at 1 pm&lt;/strong&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+
 
   
   &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/homework/1-vcs&quot;&gt;Homework 1: Version Control Using Git and Github&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on January 20, 2021.&lt;/p&gt;</content>
