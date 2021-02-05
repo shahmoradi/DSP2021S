@@ -163,10 +163,18 @@ The following figure illustrates the grade distribution for this quiz.
   <li>
     <p>Name the three generations of VCS. Briefly describe how each paradigm works and a problem that it resolves in the previous generation.
 <br /></p>
+
+    <p><strong>Answer:</strong><br />
+Local: All project files are tracked locally on a single computer.
+Centralized: All project files are tracked locally, but a full copy f the entire repository is shared between all team members, enabling collaboration.
+Distributed: Each team member has a full copy of the</p>
   </li>
   <li>
     <p>Which generation does <code>git</code> software belong to?<br />
 <br /></p>
+
+    <p><strong>Answer:</strong><br />
+Distributed.</p>
   </li>
   <li>
     <p>Which of the following Git commands can add all the <strong>new</strong> and <strong>modified-existing</strong> files to the staging area? choose all that apply.<br />
@@ -181,6 +189,8 @@ The following figure illustrates the grade distribution for this quiz.
 (H) <code>git add .; git add --u</code><br />
 (I) <code>git add -u; git add .</code><br />
 (J) <code>git add --u; git add .</code></p>
+
+    <p><strong>Answer: A, D, G, F, I</strong></p>
   </li>
   <li>
     <p>Which of the following Git commands <strong>both</strong> stages and commits <strong>only modified and deleted files</strong> but <strong>NOT</strong> the <em>new files</em> added to the repository since the last commit. Choose all that apply.<br />
@@ -188,39 +198,87 @@ The following figure illustrates the grade distribution for this quiz.
 (A) <code>git commit</code><br />
 (B) <code>git commit -a</code><br />
 (C) <code>git commit -am</code></p>
+
+    <p><strong>Answer: B, C</strong></p>
   </li>
   <li>
     <p>Write down the Git command that lists all Git commands for you.</p>
+
+    <p><strong>Answer:</strong></p>
+    <pre><code class="language-bash">git help -a
+</code></pre>
   </li>
   <li>
     <p>Write down the Git command that lists all branches for you.</p>
+
+    <p><strong>Answer:</strong></p>
+    <pre><code class="language-bash">git branch
+</code></pre>
   </li>
   <li>
     <p>Write down the Git command that creates and checks out a new branch named <code>dev</code> from the current branch.</p>
+
+    <p><strong>Answer:</strong></p>
+    <pre><code class="language-bash">git checkout -b dev
+</code></pre>
   </li>
   <li>
     <p>Write down the Git command that lists all commits made to the project.</p>
+
+    <p><strong>Answer:</strong></p>
+    <pre><code class="language-bash">git log
+</code></pre>
   </li>
   <li>
     <p>Perform the following tasks on a Git command-line on your computer and copy and paste the output to your quiz response file.</p>
     <ol>
       <li>
         <p>Initialize an empty project <strong>locally</strong> on your system in a temporary folder. Copy the command and the Git output here.</p>
+
+        <p><strong>Answer:</strong></p>
+        <pre><code class="language-bash">git init
+</code></pre>
+        <pre><code>Initialized empty Git repository in D:/Git/new/.git/
+</code></pre>
       </li>
       <li>
         <p>Add a <code>README.md</code> file to this project and add your name to it, save it and close it, then stage and commit it.</p>
+
+        <p><strong>Answer:</strong></p>
+        <pre><code class="language-bash">git add --all
+git commit -m"adding readme file"
+</code></pre>
       </li>
       <li>
         <p>Now create a new branch <code>dev</code> from the current branch and switch to it.</p>
+
+        <p><strong>Answer:</strong></p>
+        <pre><code class="language-bash">git checkout -b dev
+</code></pre>
       </li>
       <li>
         <p>Modify the <code>README.md</code> file by removing your name. Then, stage and commit the changes to the new branch.</p>
+
+        <p><strong>Answer:</strong></p>
+        <pre><code class="language-bash">git add --all
+git commit -m"modifying the readme file"
+</code></pre>
       </li>
       <li>
         <p>Now merge this <code>dev</code> branch with your <code>main</code> branch and delete the new branch that you just created.</p>
+
+        <p><strong>Answer:</strong></p>
+        <pre><code class="language-bash">git checkout main
+git merge dev
+git branch -d dev
+</code></pre>
       </li>
       <li>
         <p>List all existing branches in your project.</p>
+
+        <p><strong>Answer:</strong></p>
+        <pre><code class="language-bash">git branch
+</code></pre>
       </li>
     </ol>
   </li>
@@ -293,7 +351,7 @@ The following figure illustrates the grade distribution for this quiz.
     <footer class="notepad-site-footer">
     <div class="copyright">
          <!-- <section>Last updated 2021 / 02 / 05</section></br> -->
-         <section>Last updated Friday, 05 Feb 2021 at 12:59 PM CST</section></br>
+         <section>Last updated Friday, 05 Feb 2021 at 02:17 PM CST</section></br>
          <section>All content exclusively maintained by <a href=https://www.shahmoradi.org target="_blank">Amir Shahmoradi</a> <!-- &copy;--> </section></br>
          <section><a class="icon-ghost" href="https://www.uta.edu/physics/" target="_blank">Department of Physics | Data Science Program</a></section></br>
          <section><a class="icon-ghost" href="https://www.uta.edu/" target="_blank">The University of Texas at Arlington</a></section></br>

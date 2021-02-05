@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DSP2021S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DSP2021S/" />
-<updated>2021-02-05T12:59:47-06:00</updated>
+<updated>2021-02-05T14:17:08-06:00</updated>
 <id>http:/DSP2021S/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -52,10 +52,18 @@ The following figure illustrates the grade distribution for this quiz.
   &lt;li&gt;
     &lt;p&gt;Name the three generations of VCS. Briefly describe how each paradigm works and a problem that it resolves in the previous generation.
 &lt;br /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Local: All project files are tracked locally on a single computer.
+Centralized: All project files are tracked locally, but a full copy f the entire repository is shared between all team members, enabling collaboration.
+Distributed: Each team member has a full copy of the&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Which generation does &lt;code&gt;git&lt;/code&gt; software belong to?&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Distributed.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Which of the following Git commands can add all the &lt;strong&gt;new&lt;/strong&gt; and &lt;strong&gt;modified-existing&lt;/strong&gt; files to the staging area? choose all that apply.&lt;br /&gt;
@@ -70,6 +78,8 @@ The following figure illustrates the grade distribution for this quiz.
 (H) &lt;code&gt;git add .; git add --u&lt;/code&gt;&lt;br /&gt;
 (I) &lt;code&gt;git add -u; git add .&lt;/code&gt;&lt;br /&gt;
 (J) &lt;code&gt;git add --u; git add .&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer: A, D, G, F, I&lt;/strong&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Which of the following Git commands &lt;strong&gt;both&lt;/strong&gt; stages and commits &lt;strong&gt;only modified and deleted files&lt;/strong&gt; but &lt;strong&gt;NOT&lt;/strong&gt; the &lt;em&gt;new files&lt;/em&gt; added to the repository since the last commit. Choose all that apply.&lt;br /&gt;
@@ -77,39 +87,87 @@ The following figure illustrates the grade distribution for this quiz.
 (A) &lt;code&gt;git commit&lt;/code&gt;&lt;br /&gt;
 (B) &lt;code&gt;git commit -a&lt;/code&gt;&lt;br /&gt;
 (C) &lt;code&gt;git commit -am&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer: B, C&lt;/strong&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Write down the Git command that lists all Git commands for you.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git help -a
+&lt;/code&gt;&lt;/pre&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Write down the Git command that lists all branches for you.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git branch
+&lt;/code&gt;&lt;/pre&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Write down the Git command that creates and checks out a new branch named &lt;code&gt;dev&lt;/code&gt; from the current branch.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git checkout -b dev
+&lt;/code&gt;&lt;/pre&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Write down the Git command that lists all commits made to the project.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git log
+&lt;/code&gt;&lt;/pre&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Perform the following tasks on a Git command-line on your computer and copy and paste the output to your quiz response file.&lt;/p&gt;
     &lt;ol&gt;
       &lt;li&gt;
         &lt;p&gt;Initialize an empty project &lt;strong&gt;locally&lt;/strong&gt; on your system in a temporary folder. Copy the command and the Git output here.&lt;/p&gt;
+
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+        &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git init
+&lt;/code&gt;&lt;/pre&gt;
+        &lt;pre&gt;&lt;code&gt;Initialized empty Git repository in D:/Git/new/.git/
+&lt;/code&gt;&lt;/pre&gt;
       &lt;/li&gt;
       &lt;li&gt;
         &lt;p&gt;Add a &lt;code&gt;README.md&lt;/code&gt; file to this project and add your name to it, save it and close it, then stage and commit it.&lt;/p&gt;
+
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+        &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git add --all
+git commit -m&quot;adding readme file&quot;
+&lt;/code&gt;&lt;/pre&gt;
       &lt;/li&gt;
       &lt;li&gt;
         &lt;p&gt;Now create a new branch &lt;code&gt;dev&lt;/code&gt; from the current branch and switch to it.&lt;/p&gt;
+
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+        &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git checkout -b dev
+&lt;/code&gt;&lt;/pre&gt;
       &lt;/li&gt;
       &lt;li&gt;
         &lt;p&gt;Modify the &lt;code&gt;README.md&lt;/code&gt; file by removing your name. Then, stage and commit the changes to the new branch.&lt;/p&gt;
+
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+        &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git add --all
+git commit -m&quot;modifying the readme file&quot;
+&lt;/code&gt;&lt;/pre&gt;
       &lt;/li&gt;
       &lt;li&gt;
         &lt;p&gt;Now merge this &lt;code&gt;dev&lt;/code&gt; branch with your &lt;code&gt;main&lt;/code&gt; branch and delete the new branch that you just created.&lt;/p&gt;
+
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+        &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git checkout main
+git merge dev
+git branch -d dev
+&lt;/code&gt;&lt;/pre&gt;
       &lt;/li&gt;
       &lt;li&gt;
         &lt;p&gt;List all existing branches in your project.&lt;/p&gt;
+
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+        &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git branch
+&lt;/code&gt;&lt;/pre&gt;
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
