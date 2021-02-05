@@ -2,6 +2,11 @@
 callback([
 
   {
+    "text": "Quiz 1: Version control system",
+    "href": "/DSP2021S/quiz/1-version-control-system"
+  } ,
+
+  {
     "text": "Lecture 1: Version Control Systems, Git, and GitHub",
     "href": "/DSP2021S/lecture/1-vcs"
   } ,

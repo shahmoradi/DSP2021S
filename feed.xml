@@ -7,13 +7,118 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DSP2021S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DSP2021S/" />
-<updated>2021-01-29T21:40:27-06:00</updated>
+<updated>2021-02-05T12:59:47-06:00</updated>
 <id>http:/DSP2021S/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/DSP2021S/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Quiz 1: Version control system]]></title>
+  <link rel="alternate" type="text/html" href="http:/DSP2021S/quiz/1-version-control-system"/>
+  <id>http:/DSP2021S/quiz/1-version-control-system</id>
+  <published>2021-02-05T00:00:00-06:00</published>
+  <updated>2021-02-05T00:00:00-06:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DSP2021S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
+
+The following figure illustrates the grade distribution for this quiz.  
+&lt;figure&gt;
+    &lt;img src=&quot;http:/DSP2021S/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;
+        Maximum possible points is 1.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;p&gt;This quiz aims at testing your basic knowledge of Version Control System. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to &lt;strong&gt;quiz/1/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name the three generations of VCS. Briefly describe how each paradigm works and a problem that it resolves in the previous generation.
+&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Which generation does &lt;code&gt;git&lt;/code&gt; software belong to?&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Which of the following Git commands can add all the &lt;strong&gt;new&lt;/strong&gt; and &lt;strong&gt;modified-existing&lt;/strong&gt; files to the staging area? choose all that apply.&lt;br /&gt;
+&lt;br /&gt;
+(A) &lt;code&gt;git add -A&lt;/code&gt;&lt;br /&gt;
+(B) &lt;code&gt;git add --A&lt;/code&gt;&lt;br /&gt;
+(C) &lt;code&gt;git add -all&lt;/code&gt;&lt;br /&gt;
+(D) &lt;code&gt;git add --all&lt;/code&gt;&lt;br /&gt;
+(E) &lt;code&gt;git add -u&lt;/code&gt;&lt;br /&gt;
+(F) &lt;code&gt;git add .&lt;/code&gt;&lt;br /&gt;
+(G) &lt;code&gt;git add .; git add -u&lt;/code&gt;&lt;br /&gt;
+(H) &lt;code&gt;git add .; git add --u&lt;/code&gt;&lt;br /&gt;
+(I) &lt;code&gt;git add -u; git add .&lt;/code&gt;&lt;br /&gt;
+(J) &lt;code&gt;git add --u; git add .&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Which of the following Git commands &lt;strong&gt;both&lt;/strong&gt; stages and commits &lt;strong&gt;only modified and deleted files&lt;/strong&gt; but &lt;strong&gt;NOT&lt;/strong&gt; the &lt;em&gt;new files&lt;/em&gt; added to the repository since the last commit. Choose all that apply.&lt;br /&gt;
+&lt;br /&gt;
+(A) &lt;code&gt;git commit&lt;/code&gt;&lt;br /&gt;
+(B) &lt;code&gt;git commit -a&lt;/code&gt;&lt;br /&gt;
+(C) &lt;code&gt;git commit -am&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Write down the Git command that lists all Git commands for you.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Write down the Git command that lists all branches for you.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Write down the Git command that creates and checks out a new branch named &lt;code&gt;dev&lt;/code&gt; from the current branch.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Write down the Git command that lists all commits made to the project.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Perform the following tasks on a Git command-line on your computer and copy and paste the output to your quiz response file.&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;p&gt;Initialize an empty project &lt;strong&gt;locally&lt;/strong&gt; on your system in a temporary folder. Copy the command and the Git output here.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Add a &lt;code&gt;README.md&lt;/code&gt; file to this project and add your name to it, save it and close it, then stage and commit it.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Now create a new branch &lt;code&gt;dev&lt;/code&gt; from the current branch and switch to it.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Modify the &lt;code&gt;README.md&lt;/code&gt; file by removing your name. Then, stage and commit the changes to the new branch.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Now merge this &lt;code&gt;dev&lt;/code&gt; branch with your &lt;code&gt;main&lt;/code&gt; branch and delete the new branch that you just created.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;List all existing branches in your project.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/quiz/1-version-control-system&quot;&gt;Quiz 1: Version control system&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on February 05, 2021.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>

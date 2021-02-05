@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Quiz 1: Version control system",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/quiz/1-version-control-system",
+		  "date"       : "2021-02-05 00:00:00 -0600",
+		  "shortdate"  : "February 05, 2021"
+		} ,
+	
+		{
 		  "title"      : "Lecture 1: Version Control Systems, Git, and GitHub",
 		  "category"   : "",
 		  "url"        : "/DSP2021S/lecture/1-vcs",
