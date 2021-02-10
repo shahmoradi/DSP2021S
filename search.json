@@ -1,6 +1,30 @@
 [
 	
 		{
+		  "title"      : "Lecture 3: Beginner Python",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/lecture/3-beginner-python",
+		  "date"       : "2021-02-10 00:00:00 -0600",
+		  "shortdate"  : "February 10, 2021"
+		} ,
+	
+		{
+		  "title"      : "Homework 2: Python programming",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/homework/2-python-programming",
+		  "date"       : "2021-02-10 00:00:00 -0600",
+		  "shortdate"  : "February 10, 2021"
+		} ,
+	
+		{
+		  "title"      : "Lecture 2: A brief history of computer programming",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/lecture/2-history",
+		  "date"       : "2021-02-08 00:00:00 -0600",
+		  "shortdate"  : "February 08, 2021"
+		} ,
+	
+		{
 		  "title"      : "Quiz 1: Version control system",
 		  "category"   : "",
 		  "url"        : "/DSP2021S/quiz/1-version-control-system",

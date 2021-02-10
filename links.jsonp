@@ -7,8 +7,23 @@ callback([
   } ,
 
   {
+    "text": "Lecture 3: Beginner Python",
+    "href": "/DSP2021S/lecture/3-beginner-python"
+  } ,
+
+  {
+    "text": "Lecture 2: A brief history of computer programming",
+    "href": "/DSP2021S/lecture/2-history"
+  } ,
+
+  {
     "text": "Lecture 1: Version Control Systems, Git, and GitHub",
     "href": "/DSP2021S/lecture/1-vcs"
+  } ,
+
+  {
+    "text": "Homework 2: Python programming",
+    "href": "/DSP2021S/homework/2-python-programming"
   } ,
 
   {

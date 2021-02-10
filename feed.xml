@@ -7,13 +7,108 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DSP2021S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DSP2021S/" />
-<updated>2021-02-05T14:17:08-06:00</updated>
+<updated>2021-02-10T14:19:59-06:00</updated>
 <id>http:/DSP2021S/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/DSP2021S/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Lecture 3: Beginner Python]]></title>
+  <link rel="alternate" type="text/html" href="http:/DSP2021S/lecture/3-beginner-python"/>
+  <id>http:/DSP2021S/lecture/3-beginner-python</id>
+  <published>2021-02-10T00:00:00-06:00</published>
+  <updated>0000-00-00T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DSP2021S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;This lecture aims at providing an overview of methods of interacting with Python as well as the fundamental types in Python.&lt;/p&gt;
+
+&lt;div class=&quot;post_toc&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The material for this lecture can be found at:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/values-variables-types/first-program/first-program.html&quot; target=&quot;_blank&quot;&gt;First Python program&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/values-variables-types/values/values.html&quot; target=&quot;_blank&quot;&gt;Values in Python&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/values-variables-types/variables/variables.html&quot; target=&quot;_blank&quot;&gt;Variables in Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/lecture/3-beginner-python&quot;&gt;Lecture 3: Beginner Python&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on February 10, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 2: Python programming]]></title>
+  <link rel="alternate" type="text/html" href="http:/DSP2021S/homework/2-python-programming"/>
+  <id>http:/DSP2021S/homework/2-python-programming</id>
+  <published>2021-02-10T00:00:00-06:00</published>
+  <updated>2021-02-10T00:00:00-06:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DSP2021S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;♣ &lt;strong&gt;Due Date: Friday Feb 19, 2021 2:00 PM&lt;/strong&gt;. This homework aims at giving you some experience with the syntax of Python and programming via Python.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/values-variables-types/values/values.html#exercise&quot; target=&quot;_blank&quot;&gt;Python values problems&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/values-variables-types/variables/variables.html#exercise&quot; target=&quot;_blank&quot;&gt;Python variables problems&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/control-constructs/branching/branching.html#exercise&quot; target=&quot;_blank&quot;&gt;Python branching exercises&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/control-constructs/looping/looping.html#exercise&quot; target=&quot;_blank&quot;&gt;Python looping exercises&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/homework/2-python-programming&quot;&gt;Homework 2: Python programming&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on February 10, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Lecture 2: A brief history of computer programming]]></title>
+  <link rel="alternate" type="text/html" href="http:/DSP2021S/lecture/2-history"/>
+  <id>http:/DSP2021S/lecture/2-history</id>
+  <published>2021-02-08T00:00:00-06:00</published>
+  <updated>0000-00-00T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DSP2021S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;This lecture aims at providing an overview of computer programming history and, in particular, Python, as we well as popular implementations of Python interpreter and editors and how to install them.&lt;/p&gt;
+
+&lt;div class=&quot;post_toc&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The material for this lecture can be found at:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/programming-history/programming-history.html&quot; target=&quot;_blank&quot;&gt;programming history&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/computer-program-structure/computer-program-structure.html&quot; target=&quot;_blank&quot;&gt;Computer program structure&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/python-for-beginners/python-for-beginners.html&quot; target=&quot;_blank&quot;&gt;Python for beginners&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/lecture/2-history&quot;&gt;Lecture 2: A brief history of computer programming&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on February 08, 2021.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>

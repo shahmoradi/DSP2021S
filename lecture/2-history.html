@@ -11,7 +11,7 @@
 -->
 
 <meta charset="utf-8">
-<title>QUIZ 1: VERSION CONTROL SYSTEM &vert; DATA 1401 - DATA SCIENCE WITH PYTHON - SPRING 2021 - MW 14:30-15:50 @ TEAMS</title>
+<title>LECTURE 2: A BRIEF HISTORY OF COMPUTER PROGRAMMING &vert; DATA 1401 - DATA SCIENCE WITH PYTHON - SPRING 2021 - MW 14:30-15:50 @ TEAMS</title>
 <meta name="description" content="Data Science with Python">
 <meta name="keywords" content="">
 
@@ -20,9 +20,9 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Quiz 1: Version control system">
+<meta property="og:title" content="Lecture 2: A brief history of computer programming">
 <meta property="og:description" content="Data Science with Python">
-<meta property="og:url" content="/DSP2021S/quiz/1-version-control-system">
+<meta property="og:url" content="/DSP2021S/lecture/2-history">
 <meta property="og:site_name" content="DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams">
 <meta property="og:image" content="/DSP2021S/images/">
 
@@ -30,7 +30,7 @@
 
 
 
-<link rel="canonical" href="/DSP2021S/quiz/1-version-control-system">
+<link rel="canonical" href="/DSP2021S/lecture/2-history">
 <!-- <link href="/DSP2021S/feed.xml" type="application/atom+xml" rel="alternate" title="DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams Feed"> -->
 
 
@@ -130,8 +130,8 @@ MathJax.Hub.Queue(function() {
                 <div class="notepad-post-title-simple row">
                     <div class="small-12 columns">
                         <div class="notepad-post-meta-simple">
-                            <h2>Quiz 1: Version control system</h2>
-                            <p>by <strong>Amir Shahmoradi</strong> &#8212;  <strong><time datetime="2021-02-05T00:00:00-06:00">05 Feb 2021</time></strong></p>
+                            <h2>Lecture 2: A brief history of computer programming</h2>
+                            <p>by <strong>Amir Shahmoradi</strong> &#8212;  <strong><time datetime="2021-02-08T00:00:00-06:00">08 Feb 2021</time></strong></p>
                         </div>
                     </div>
                 </div>
@@ -141,148 +141,18 @@ MathJax.Hub.Queue(function() {
             <article class="notepad-post-content post tag-simple">
         
             <div style="text-align:justify;">
-                <!--
-This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target="_blank"}.  
+                
+<p>This lecture aims at providing an overview of computer programming history and, in particular, Python, as we well as popular implementations of Python interpreter and editors and how to install them.</p>
 
-The following figure illustrates the grade distribution for this quiz.  
-<figure>
-    <img src="/DSP2021S/quiz/gradeDist/gradeHistQuiz1.png" width="700">
-    <figcaption style="text-align:center">
-        Maximum possible points is 1.
-    </figcaption>
-</figure>
--->
+<div class="post_toc"></div>
 
-<p>This quiz aims at testing your basic knowledge of Version Control System. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to <strong>quiz/1/</strong> folder in your Github project.</p>
+<p>The material for this lecture can be found at:</p>
 
-<hr />
-<hr />
-
-<p><br /></p>
-<ol>
-  <li>
-    <p>Name the three generations of VCS. Briefly describe how each paradigm works and a problem that it resolves in the previous generation.
-<br /></p>
-
-    <p><strong>Answer:</strong><br />
-Local: All project files are tracked locally on a single computer.
-Centralized: All project files are tracked locally, but a full copy f the entire repository is shared between all team members, enabling collaboration.
-Distributed: Each team member has a full copy of the</p>
-  </li>
-  <li>
-    <p>Which generation does <code>git</code> software belong to?<br />
-<br /></p>
-
-    <p><strong>Answer:</strong><br />
-Distributed.</p>
-  </li>
-  <li>
-    <p>Which of the following Git commands can add all the <strong>new</strong> and <strong>modified-existing</strong> files to the staging area? choose all that apply.<br />
-<br />
-(A) <code>git add -A</code><br />
-(B) <code>git add --A</code><br />
-(C) <code>git add -all</code><br />
-(D) <code>git add --all</code><br />
-(E) <code>git add -u</code><br />
-(F) <code>git add .</code><br />
-(G) <code>git add .; git add -u</code><br />
-(H) <code>git add .; git add --u</code><br />
-(I) <code>git add -u; git add .</code><br />
-(J) <code>git add --u; git add .</code></p>
-
-    <p><strong>Answer: A, D, G, F, I</strong></p>
-  </li>
-  <li>
-    <p>Which of the following Git commands <strong>both</strong> stages and commits <strong>only modified and deleted files</strong> but <strong>NOT</strong> the <em>new files</em> added to the repository since the last commit. Choose all that apply.<br />
-<br />
-(A) <code>git commit</code><br />
-(B) <code>git commit -a</code><br />
-(C) <code>git commit -am</code></p>
-
-    <p><strong>Answer: B, C</strong></p>
-  </li>
-  <li>
-    <p>Write down the Git command that lists all Git commands for you.</p>
-
-    <p><strong>Answer:</strong></p>
-    <pre><code class="language-bash">git help -a
-</code></pre>
-  </li>
-  <li>
-    <p>Write down the Git command that lists all branches for you.</p>
-
-    <p><strong>Answer:</strong></p>
-    <pre><code class="language-bash">git branch
-</code></pre>
-  </li>
-  <li>
-    <p>Write down the Git command that creates and checks out a new branch named <code>dev</code> from the current branch.</p>
-
-    <p><strong>Answer:</strong></p>
-    <pre><code class="language-bash">git checkout -b dev
-</code></pre>
-  </li>
-  <li>
-    <p>Write down the Git command that lists all commits made to the project.</p>
-
-    <p><strong>Answer:</strong></p>
-    <pre><code class="language-bash">git log
-</code></pre>
-  </li>
-  <li>
-    <p>Perform the following tasks on a Git command-line on your computer and copy and paste the output to your quiz response file.</p>
-    <ol>
-      <li>
-        <p>Initialize an empty project <strong>locally</strong> on your system in a temporary folder. Copy the command and the Git output here.</p>
-
-        <p><strong>Answer:</strong></p>
-        <pre><code class="language-bash">git init
-</code></pre>
-        <pre><code>Initialized empty Git repository in D:/Git/new/.git/
-</code></pre>
-      </li>
-      <li>
-        <p>Add a <code>README.md</code> file to this project and add your name to it, save it and close it, then stage and commit it.</p>
-
-        <p><strong>Answer:</strong></p>
-        <pre><code class="language-bash">git add --all
-git commit -m"adding readme file"
-</code></pre>
-      </li>
-      <li>
-        <p>Now create a new branch <code>dev</code> from the current branch and switch to it.</p>
-
-        <p><strong>Answer:</strong></p>
-        <pre><code class="language-bash">git checkout -b dev
-</code></pre>
-      </li>
-      <li>
-        <p>Modify the <code>README.md</code> file by removing your name. Then, stage and commit the changes to the new branch.</p>
-
-        <p><strong>Answer:</strong></p>
-        <pre><code class="language-bash">git add --all
-git commit -m"modifying the readme file"
-</code></pre>
-      </li>
-      <li>
-        <p>Now merge this <code>dev</code> branch with your <code>main</code> branch and delete the new branch that you just created.</p>
-
-        <p><strong>Answer:</strong></p>
-        <pre><code class="language-bash">git checkout main
-git merge dev
-git branch -d dev
-</code></pre>
-      </li>
-      <li>
-        <p>List all existing branches in your project.</p>
-
-        <p><strong>Answer:</strong></p>
-        <pre><code class="language-bash">git branch
-</code></pre>
-      </li>
-    </ol>
-  </li>
-</ol>
+<ul>
+  <li><a href="https://www.cdslab.org/python/notes/preliminary-foundations/programming-history/programming-history.html" target="_blank">programming history</a></li>
+  <li><a href="https://www.cdslab.org/python/notes/preliminary-foundations/computer-program-structure/computer-program-structure.html" target="_blank">Computer program structure</a></li>
+  <li><a href="https://www.cdslab.org/python/notes/preliminary-foundations/python-for-beginners/python-for-beginners.html" target="_blank">Python for beginners</a></li>
+</ul>
 
 
             </div>
@@ -290,11 +160,11 @@ git branch -d dev
         <div class="cf"></div>
 <div class="row text-center">
     <section class="notepad-post-share">
-        <a class="twitter-icon" href="https://twitter.com/intent/tweet?text=&quot;Quiz 1: Version control system&quot;%20/DSP2021S/quiz/1-version-control-system%20via%20&#64;"
+        <a class="twitter-icon" href="https://twitter.com/intent/tweet?text=&quot;Lecture 2: A brief history of computer programming&quot;%20/DSP2021S/lecture/2-history%20via%20&#64;"
             onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
             <i class="fa fa-twitter"></i>
         </a>
-        <a class="facebook-icon" href="https://www.facebook.com/sharer/sharer.php?u=/DSP2021S/quiz/1-version-control-system"
+        <a class="facebook-icon" href="https://www.facebook.com/sharer/sharer.php?u=/DSP2021S/lecture/2-history"
             onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
             <i class="fa fa-facebook"></i>
         </a>
