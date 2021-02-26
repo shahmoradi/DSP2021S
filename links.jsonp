@@ -2,6 +2,11 @@
 callback([
 
   {
+    "text": "Quiz 2: Programming history, Python values and variables",
+    "href": "/DSP2021S/quiz/2-programming-history-python-values"
+  } ,
+
+  {
     "text": "Quiz 1: Version control system",
     "href": "/DSP2021S/quiz/1-version-control-system"
   } ,

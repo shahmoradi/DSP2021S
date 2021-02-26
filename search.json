@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Quiz 2: Programming history, Python values and variables",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/quiz/2-programming-history-python-values",
+		  "date"       : "2021-02-26 00:00:00 -0600",
+		  "shortdate"  : "February 26, 2021"
+		} ,
+	
+		{
 		  "title"      : "Lecture 3: Beginner Python",
 		  "category"   : "",
 		  "url"        : "/DSP2021S/lecture/3-beginner-python",
