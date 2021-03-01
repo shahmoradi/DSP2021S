@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DSP2021S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DSP2021S/" />
-<updated>2021-02-26T13:02:25-06:00</updated>
+<updated>2021-03-01T14:30:31-06:00</updated>
 <id>http:/DSP2021S/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -52,41 +52,86 @@ The following figure illustrates the grade distribution for this quiz.
   &lt;li&gt;
     &lt;p&gt;(A) What is the closest programming language to machine code (i.e., binary code)?&lt;/p&gt;
 
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Assembly&lt;/p&gt;
+
     &lt;p&gt;(B) Does it need interpretation in order to become machine-comprehensible?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Yes. An &lt;em&gt;Assembler&lt;/em&gt; interprets the program for the machine.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;(A) Name the oldest high-level programming language that is still in active daily use.&lt;/p&gt;
 
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Fortran&lt;/p&gt;
+
     &lt;p&gt;(B) Approximately how many decades is it old? ($\pm15$ years is acceptable answer. the decade it was created is also an acceptable answer)&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+in 1950s&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;(A) Name a second-generation programming language.&lt;/p&gt;
 
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Assembly&lt;/p&gt;
+
     &lt;p&gt;(B) Which language-generation are Fortran, C, C++, MATLAB, Python, R?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+third, third, third, fourth, fourth, fourth&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;In what decades C, C++, and MATLAB/Python were created, respectively?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+1970s, 1980s, 1980s, 1990s&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Name an ancestor programming language of C.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+B&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Name a programming language ancestor of C++.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+C, Simula&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Name a programming language ancestor of MATLAB and a programming language ancestor of Python.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Fortran/C&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What are the three common types of errors in computer programs? Provide an example for each category.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;syntax errors&lt;/li&gt;
+      &lt;li&gt;runtime errors&lt;/li&gt;
+      &lt;li&gt;semantic errors&lt;br /&gt;
+See the lecture notes for examples of each category.&lt;/li&gt;
+    &lt;/ol&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Suppose you write a program that has memory leak. What type of programming error you dealing with?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; runtime error&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What is the biggest integer (in base 10) that you could store in an &lt;code&gt;int32&lt;/code&gt; type?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 2,147,483,647&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What is the difference between &lt;code&gt;int16&lt;/code&gt; and the &lt;code&gt;int64&lt;/code&gt; types?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+1) &lt;code&gt;int16&lt;/code&gt; is only 16 bits storage, whereas &lt;code&gt;int64&lt;/code&gt; is 64 bits storage.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Write a &lt;strong&gt;single-line&lt;/strong&gt; python script, that applies the relevant Python string manipulator methods to this string,&lt;br /&gt;
 &lt;br /&gt;
@@ -95,29 +140,61 @@ The following figure illustrates the grade distribution for this quiz.
     &lt;p&gt;and transforms it to the following string and and prints it on screen,&lt;/p&gt;
     &lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;.noitalupinaMgnirtSroFtaerGsInohtyP
 &lt;/code&gt;&lt;/pre&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;print( &quot;Python Is Great For String Manipulation.&quot;.replace(' ','')[::-1] )
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code&gt;.noitalupinaMgnirtSroFtaerGsInohtyP
+&lt;/code&gt;&lt;/pre&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What are some popular usages of the underscore symbol &lt;code&gt;_&lt;/code&gt; in Python? Name and explain at least three.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+See the &lt;a href=&quot;https://www.cdslab.org/python/notes/values-variables-types/variables/variables.html#meanings-of-underscore-_-in-python&quot; target=&quot;_blank&quot;&gt;lecture notes&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Create a tuple variable with only one element valued &lt;code&gt;1&lt;/code&gt;.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;a = (1,)
+&lt;/code&gt;&lt;/pre&gt;
   &lt;/li&gt;
   &lt;li&gt;Make a string from the following list, with one one-line of Python code.&lt;br /&gt;
 &lt;br /&gt;
     &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;mylist = ['The' , 'weather' , 'is' , 'rainy' , 'today' , 'and' , 'cold' , 'only' , '22' , 'F.']
 &lt;/code&gt;&lt;/pre&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;&quot; &quot;.join(mylist)
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code&gt;'The weather is rainy today and cold only 22 F.'
+&lt;/code&gt;&lt;/pre&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Suppose you have a Python string variable. Would you be able to change individual characters in the string variable? Explain why.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+No. Because strings are immutable objects in Python, meaning that one cannot change their states or modify parts of them once created.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Are tuple variables mutable objects? Can they be redefined?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+No. Yes.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;How do you define an empty dictionary?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;empty_dict = {} 
+&lt;/code&gt;&lt;/pre&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;When an integer overflow happens in Python, what is the expected behavior (what value would be assigned to the overflowed variable)? You may explain with an example.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+The overflowed variable cycles and the value starts again from the smallest possible.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Suppose we have the following matrix. Write a dictionary representation of this matrix.
     &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;sparseMatrixList = [ [ 0 , 0 , 0 , 1 ]
@@ -127,6 +204,8 @@ The following figure illustrates the grade distribution for this quiz.
                    , [ 0 , 0 , 8 , 0 ]
                    ]
 &lt;/code&gt;&lt;/pre&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Extra credit&lt;/strong&gt;: Suppose we have the following matrix. Write a sparse dictionary representation of this matrix (omitting zeros).
     &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;sparseMatrixList = [ [ 0 , 0 , 0 , 1 ]
@@ -136,12 +215,27 @@ The following figure illustrates the grade distribution for this quiz.
                    , [ 0 , 0 , 8 , 0 ]
                    ]
 &lt;/code&gt;&lt;/pre&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Extra credit:&lt;/strong&gt; What are the three fundamental components of a Turing-complete language?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;a way for accessing the memory&lt;/li&gt;
+      &lt;li&gt;a way for iteration&lt;/li&gt;
+      &lt;li&gt;a way for branching&lt;/li&gt;
+    &lt;/ol&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Extra credit:&lt;/strong&gt; How would you distinguish exponential behavior vs. power-law behavior (function) in a 2-dimensional plot?&lt;br /&gt;
-&lt;strong&gt;Hint&lt;/strong&gt;: Recall our discussion of the ENAIC project and the relative frequency of keywords such as “computer” in our programming.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Extra credit:&lt;/strong&gt; How would you distinguish exponential behavior vs. power-law behavior (function) in a 2-dimensional plot?&lt;br /&gt;
+&lt;strong&gt;Hint&lt;/strong&gt;: Recall our discussion of the ENAIC project and the relative frequency of keywords such as “computer” in our programming.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+An exponential curve looks like a line only when the X-axis is plotted on log-scale.&lt;br /&gt;
+A power-law curve looks like a line only when both the X- and Y- axes are plotted on log-scale.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
 

@@ -163,41 +163,86 @@ The following figure illustrates the grade distribution for this quiz.
   <li>
     <p>(A) What is the closest programming language to machine code (i.e., binary code)?</p>
 
+    <p><strong>Answer:</strong><br />
+Assembly</p>
+
     <p>(B) Does it need interpretation in order to become machine-comprehensible?</p>
+
+    <p><strong>Answer:</strong><br />
+Yes. An <em>Assembler</em> interprets the program for the machine.</p>
   </li>
   <li>
     <p>(A) Name the oldest high-level programming language that is still in active daily use.</p>
 
+    <p><strong>Answer:</strong><br />
+Fortran</p>
+
     <p>(B) Approximately how many decades is it old? ($\pm15$ years is acceptable answer. the decade it was created is also an acceptable answer)</p>
+
+    <p><strong>Answer:</strong><br />
+in 1950s</p>
   </li>
   <li>
     <p>(A) Name a second-generation programming language.</p>
 
+    <p><strong>Answer:</strong><br />
+Assembly</p>
+
     <p>(B) Which language-generation are Fortran, C, C++, MATLAB, Python, R?</p>
+
+    <p><strong>Answer:</strong><br />
+third, third, third, fourth, fourth, fourth</p>
   </li>
   <li>
     <p>In what decades C, C++, and MATLAB/Python were created, respectively?</p>
+
+    <p><strong>Answer:</strong><br />
+1970s, 1980s, 1980s, 1990s</p>
   </li>
   <li>
     <p>Name an ancestor programming language of C.</p>
+
+    <p><strong>Answer:</strong><br />
+B</p>
   </li>
   <li>
     <p>Name a programming language ancestor of C++.</p>
+
+    <p><strong>Answer:</strong><br />
+C, Simula</p>
   </li>
   <li>
     <p>Name a programming language ancestor of MATLAB and a programming language ancestor of Python.</p>
+
+    <p><strong>Answer:</strong><br />
+Fortran/C</p>
   </li>
   <li>
     <p>What are the three common types of errors in computer programs? Provide an example for each category.</p>
+
+    <p><strong>Answer:</strong></p>
+    <ol>
+      <li>syntax errors</li>
+      <li>runtime errors</li>
+      <li>semantic errors<br />
+See the lecture notes for examples of each category.</li>
+    </ol>
   </li>
   <li>
     <p>Suppose you write a program that has memory leak. What type of programming error you dealing with?</p>
+
+    <p><strong>Answer:</strong> runtime error</p>
   </li>
   <li>
     <p>What is the biggest integer (in base 10) that you could store in an <code>int32</code> type?</p>
+
+    <p><strong>Answer:</strong> 2,147,483,647</p>
   </li>
   <li>
     <p>What is the difference between <code>int16</code> and the <code>int64</code> types?</p>
+
+    <p><strong>Answer:</strong><br />
+1) <code>int16</code> is only 16 bits storage, whereas <code>int64</code> is 64 bits storage.</p>
   </li>
   <li>Write a <strong>single-line</strong> python script, that applies the relevant Python string manipulator methods to this string,<br />
 <br />
@@ -206,29 +251,61 @@ The following figure illustrates the grade distribution for this quiz.
     <p>and transforms it to the following string and and prints it on screen,</p>
     <pre><code class="language-text">.noitalupinaMgnirtSroFtaerGsInohtyP
 </code></pre>
+
+    <p><strong>Answer:</strong></p>
+    <pre><code class="language-python">print( "Python Is Great For String Manipulation.".replace(' ','')[::-1] )
+</code></pre>
+    <pre><code>.noitalupinaMgnirtSroFtaerGsInohtyP
+</code></pre>
   </li>
   <li>
     <p>What are some popular usages of the underscore symbol <code>_</code> in Python? Name and explain at least three.</p>
+
+    <p><strong>Answer:</strong><br />
+See the <a href="https://www.cdslab.org/python/notes/values-variables-types/variables/variables.html#meanings-of-underscore-_-in-python" target="_blank">lecture notes</a>.</p>
   </li>
   <li>
     <p>Create a tuple variable with only one element valued <code>1</code>.</p>
+
+    <p><strong>Answer:</strong></p>
+    <pre><code class="language-python">a = (1,)
+</code></pre>
   </li>
   <li>Make a string from the following list, with one one-line of Python code.<br />
 <br />
     <pre><code class="language-python">mylist = ['The' , 'weather' , 'is' , 'rainy' , 'today' , 'and' , 'cold' , 'only' , '22' , 'F.']
 </code></pre>
+
+    <p><strong>Answer:</strong></p>
+    <pre><code class="language-python">" ".join(mylist)
+</code></pre>
+    <pre><code>'The weather is rainy today and cold only 22 F.'
+</code></pre>
   </li>
   <li>
     <p>Suppose you have a Python string variable. Would you be able to change individual characters in the string variable? Explain why.</p>
+
+    <p><strong>Answer:</strong><br />
+No. Because strings are immutable objects in Python, meaning that one cannot change their states or modify parts of them once created.</p>
   </li>
   <li>
     <p>Are tuple variables mutable objects? Can they be redefined?</p>
+
+    <p><strong>Answer:</strong><br />
+No. Yes.</p>
   </li>
   <li>
     <p>How do you define an empty dictionary?</p>
+
+    <p><strong>Answer:</strong></p>
+    <pre><code class="language-python">empty_dict = {} 
+</code></pre>
   </li>
   <li>
     <p>When an integer overflow happens in Python, what is the expected behavior (what value would be assigned to the overflowed variable)? You may explain with an example.</p>
+
+    <p><strong>Answer:</strong><br />
+The overflowed variable cycles and the value starts again from the smallest possible.</p>
   </li>
   <li>Suppose we have the following matrix. Write a dictionary representation of this matrix.
     <pre><code class="language-python">sparseMatrixList = [ [ 0 , 0 , 0 , 1 ]
@@ -238,6 +315,8 @@ The following figure illustrates the grade distribution for this quiz.
                    , [ 0 , 0 , 8 , 0 ]
                    ]
 </code></pre>
+
+    <p><strong>Answer:</strong></p>
   </li>
   <li><strong>Extra credit</strong>: Suppose we have the following matrix. Write a sparse dictionary representation of this matrix (omitting zeros).
     <pre><code class="language-python">sparseMatrixList = [ [ 0 , 0 , 0 , 1 ]
@@ -247,12 +326,27 @@ The following figure illustrates the grade distribution for this quiz.
                    , [ 0 , 0 , 8 , 0 ]
                    ]
 </code></pre>
+
+    <p><strong>Answer:</strong></p>
   </li>
   <li>
     <p><strong>Extra credit:</strong> What are the three fundamental components of a Turing-complete language?</p>
+
+    <p><strong>Answer:</strong></p>
+    <ol>
+      <li>a way for accessing the memory</li>
+      <li>a way for iteration</li>
+      <li>a way for branching</li>
+    </ol>
   </li>
-  <li><strong>Extra credit:</strong> How would you distinguish exponential behavior vs. power-law behavior (function) in a 2-dimensional plot?<br />
-<strong>Hint</strong>: Recall our discussion of the ENAIC project and the relative frequency of keywords such as “computer” in our programming.</li>
+  <li>
+    <p><strong>Extra credit:</strong> How would you distinguish exponential behavior vs. power-law behavior (function) in a 2-dimensional plot?<br />
+<strong>Hint</strong>: Recall our discussion of the ENAIC project and the relative frequency of keywords such as “computer” in our programming.</p>
+
+    <p><strong>Answer:</strong><br />
+An exponential curve looks like a line only when the X-axis is plotted on log-scale.<br />
+A power-law curve looks like a line only when both the X- and Y- axes are plotted on log-scale.</p>
+  </li>
 </ol>
 
 
@@ -321,8 +415,8 @@ The following figure illustrates the grade distribution for this quiz.
 
     <footer class="notepad-site-footer">
     <div class="copyright">
-         <!-- <section>Last updated 2021 / 02 / 26</section></br> -->
-         <section>Last updated Friday, 26 Feb 2021 at 01:02 PM CST</section></br>
+         <!-- <section>Last updated 2021 / 03 / 01</section></br> -->
+         <section>Last updated Monday, 01 Mar 2021 at 02:30 PM CST</section></br>
          <section>All content exclusively maintained by <a href=https://www.shahmoradi.org target="_blank">Amir Shahmoradi</a> <!-- &copy;--> </section></br>
          <section><a class="icon-ghost" href="https://www.uta.edu/physics/" target="_blank">Department of Physics | Data Science Program</a></section></br>
          <section><a class="icon-ghost" href="https://www.uta.edu/" target="_blank">The University of Texas at Arlington</a></section></br>
