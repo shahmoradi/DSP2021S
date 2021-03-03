@@ -1,6 +1,22 @@
 [
 	
 		{
+		  "title"      : "Homework 3: Python - branches, looping, and functions",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/homework/3-python-branching-looping-functions",
+		  "date"       : "2021-03-03 00:00:00 -0600",
+		  "shortdate"  : "March 03, 2021"
+		} ,
+	
+		{
+		  "title"      : "Lecture 4: Python - branches, looping, and functions",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/lecture/4-python-branches-looping-functions",
+		  "date"       : "2021-03-01 00:00:00 -0600",
+		  "shortdate"  : "March 01, 2021"
+		} ,
+	
+		{
 		  "title"      : "Quiz 2: Programming history, Python values and variables",
 		  "category"   : "",
 		  "url"        : "/DSP2021S/quiz/2-programming-history-python-values",
@@ -9,7 +25,7 @@
 		} ,
 	
 		{
-		  "title"      : "Lecture 3: Beginner Python",
+		  "title"      : "Lecture 3: Python - values, variables, and types",
 		  "category"   : "",
 		  "url"        : "/DSP2021S/lecture/3-beginner-python",
 		  "date"       : "2021-02-10 00:00:00 -0600",
@@ -19,7 +35,7 @@
 		{
 		  "title"      : "Homework 2: Python programming",
 		  "category"   : "",
-		  "url"        : "/DSP2021S/homework/2-python-programming",
+		  "url"        : "/DSP2021S/homework/2-python-programming-Copy",
 		  "date"       : "2021-02-10 00:00:00 -0600",
 		  "shortdate"  : "February 10, 2021"
 		} ,

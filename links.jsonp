@@ -12,7 +12,12 @@ callback([
   } ,
 
   {
-    "text": "Lecture 3: Beginner Python",
+    "text": "Lecture 4: Python - branches, looping, and functions",
+    "href": "/DSP2021S/lecture/4-python-branches-looping-functions"
+  } ,
+
+  {
+    "text": "Lecture 3: Python - values, variables, and types",
     "href": "/DSP2021S/lecture/3-beginner-python"
   } ,
 
@@ -27,8 +32,13 @@ callback([
   } ,
 
   {
+    "text": "Homework 3: Python - branches, looping, and functions",
+    "href": "/DSP2021S/homework/3-python-branching-looping-functions"
+  } ,
+
+  {
     "text": "Homework 2: Python programming",
-    "href": "/DSP2021S/homework/2-python-programming"
+    "href": "/DSP2021S/homework/2-python-programming-Copy"
   } ,
 
   {
