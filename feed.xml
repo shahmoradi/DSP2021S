@@ -7,13 +7,43 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DSP2021S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DSP2021S/" />
-<updated>2021-03-10T16:37:29-06:00</updated>
+<updated>2021-03-12T15:10:11-06:00</updated>
 <id>http:/DSP2021S/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/DSP2021S/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 4: Python - Functions, modules, and data transfer]]></title>
+  <link rel="alternate" type="text/html" href="http:/DSP2021S/homework/4-python-functions-modules-data-transfer"/>
+  <id>http:/DSP2021S/homework/4-python-functions-modules-data-transfer</id>
+  <published>2021-03-12T00:00:00-06:00</published>
+  <updated>2021-03-12T00:00:00-06:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DSP2021S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;♣ &lt;strong&gt;Due Date: Friday March 26, 2021 1:00 PM&lt;/strong&gt;. This homework aims at giving you some experience with branches and looping in Python.&lt;/p&gt;
+
+&lt;h2 id=&quot;functions&quot;&gt;Functions&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/isprime-recursive/isprime-recursive&quot; target=&quot;_blank&quot;&gt;Checking if an input is a prime number (via recursive function calls)? (only Python section)&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/fibonacci-sequence-via-recursive-function-calls/fibonacci-sequence-via-recursive-function-calls#hint-python&quot; target=&quot;_blank&quot;&gt;Computing the Fibonacci sequence via recursive function calls (only Python section)&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/finding-maximum-value-via-recursive-function/finding-maximum-value-via-recursive-function&quot; target=&quot;_blank&quot;&gt;Finding the maximum value of an array via recursive function calls&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/finding-maximum-location-via-recursive-function/finding-maximum-location-via-recursive-function&quot; target=&quot;_blank&quot;&gt;Finding the position of the maximum value of an array via recursive function calls&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/homework/4-python-functions-modules-data-transfer&quot;&gt;Homework 4: Python - Functions, modules, and data transfer&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on March 12, 2021.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -31,7 +61,7 @@
   <content type="html">
   
     
-&lt;p&gt;♣ &lt;strong&gt;Due Date: Saturday March 13, 2021 11:59 PM&lt;/strong&gt;. This homework aims at giving you some experience with branches and looping in Python.&lt;/p&gt;
+&lt;p&gt;♣ &lt;strong&gt;Due Date: Monday March 22, 2021 2:30 PM&lt;/strong&gt;. This homework aims at giving you some experience with branches and looping in Python.&lt;/p&gt;
 
 &lt;h2 id=&quot;branches&quot;&gt;Branches&lt;/h2&gt;
 &lt;ol&gt;

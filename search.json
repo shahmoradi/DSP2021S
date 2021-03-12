@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Homework 4: Python - Functions, modules, and data transfer",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/homework/4-python-functions-modules-data-transfer",
+		  "date"       : "2021-03-12 00:00:00 -0600",
+		  "shortdate"  : "March 12, 2021"
+		} ,
+	
+		{
 		  "title"      : "Homework 3: Python - branches, looping, and functions",
 		  "category"   : "",
 		  "url"        : "/DSP2021S/homework/3-python-branching-looping-functions",
