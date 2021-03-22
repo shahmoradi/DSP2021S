@@ -7,13 +7,119 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DSP2021S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DSP2021S/" />
-<updated>2021-03-12T15:10:11-06:00</updated>
+<updated>2021-03-22T14:39:33-05:00</updated>
 <id>http:/DSP2021S/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/DSP2021S/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Quiz 3: Python variables, branches, loops, and functions]]></title>
+  <link rel="alternate" type="text/html" href="http:/DSP2021S/quiz/3-variables-branches-loops-functions"/>
+  <id>http:/DSP2021S/quiz/3-variables-branches-loops-functions</id>
+  <published>2021-03-22T00:00:00-05:00</published>
+  <updated>2021-03-22T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DSP2021S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
+
+The following figure illustrates the grade distribution for this quiz.  
+&lt;figure&gt;
+    &lt;img src=&quot;http:/DSP2021S/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;
+        Maximum possible points is 1.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;p&gt;This quiz aims at testing your basic knowledge of branching and looping and functions in Python. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to &lt;strong&gt;quiz/3/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name some of the roles and meanings of &lt;code&gt;_&lt;/code&gt; in Python scripts.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A Geometric Series is defined by the following mathematical sequence,&lt;/p&gt;
+
+\[1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16} + \ldots = \sum^{\infty}_{n=0} \frac{1}{2^n} ~,\]
+
+    &lt;p&gt;A finite version of this sequence can be defined as the following,&lt;/p&gt;
+
+\[1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16} + \ldots  + \frac{1}{2^m} = \sum^{m}_{n=0} \frac{1}{2^n} ~,\]
+
+    &lt;p&gt;b) Write a function, using loops, that takes an input integer &lt;code&gt;m&lt;/code&gt; and computes the finite Geometric sum as defined above.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Suppose you are given two lists of numbers,
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;even = [0,2,4,6,8]
+odd = [1,3,5,7,9]
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;p&gt;Write a &lt;strong&gt;one-line&lt;/strong&gt; Python statement (list comprehension) that gives a list &lt;code&gt;summ&lt;/code&gt; whose elements are the sum of the respective elements in the above two lists &lt;code&gt;odd&lt;/code&gt; and &lt;code&gt;even&lt;/code&gt;, that is,&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;summ
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code&gt;[1, 5, 9, 13, 17]  
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Consider the following for-loop,
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;mylist = list(range(0,10,2))
+for item in mylist:
+    mylist.append(item+1)
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;p&gt;How many iterations does this for-loop perform before ending? Explain briefly why.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What is the type of the returned value from the following function?
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def print_msg(msg = &quot;&quot;):
+    return None if msg == &quot;&quot; else print(msg)
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Fix the following code such that it yields the correct answer for the following test.
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def sub(value_pair):
+    &quot;&quot;&quot;
+    Return the difference between the two input values.
+    &quot;&quot;&quot;
+    finally = value_pair[1] - value_pair[0]
+    return finally
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;assertion = sub(1,3) == 2
+assertion
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code&gt;True
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Fix the following code such that it yields the correct answer for the following test.
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def sum(values):
+    &quot;&quot;&quot;
+    Return the sum of the elements of the input ``values`` vector.
+    &quot;&quot;&quot;
+    sum = sum(values)
+    return sum
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;assertion = sum([1,2,3,4]) == 10
+assertion
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code&gt;True
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/quiz/3-variables-branches-loops-functions&quot;&gt;Quiz 3: Python variables, branches, loops, and functions&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on March 22, 2021.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>

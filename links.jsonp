@@ -2,6 +2,11 @@
 callback([
 
   {
+    "text": "Quiz 3: Python variables, branches, loops, and functions",
+    "href": "/DSP2021S/quiz/3-variables-branches-loops-functions"
+  } ,
+
+  {
     "text": "Quiz 2: Programming history, Python values and variables",
     "href": "/DSP2021S/quiz/2-programming-history-python-values"
   } ,

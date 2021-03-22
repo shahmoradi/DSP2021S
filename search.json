@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Quiz 3: Python variables, branches, loops, and functions",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/quiz/3-variables-branches-loops-functions",
+		  "date"       : "2021-03-22 00:00:00 -0500",
+		  "shortdate"  : "March 22, 2021"
+		} ,
+	
+		{
 		  "title"      : "Homework 4: Python - Functions, modules, and data transfer",
 		  "category"   : "",
 		  "url"        : "/DSP2021S/homework/4-python-functions-modules-data-transfer",
