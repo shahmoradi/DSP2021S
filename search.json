@@ -1,0 +1,99 @@
+[
+	
+		{
+		  "title"      : "Homework 4: Python - Functions, modules, and data transfer",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/homework/4-python-functions-modules-data-transfer",
+		  "date"       : "2021-03-12 00:00:00 -0600",
+		  "shortdate"  : "March 12, 2021"
+		} ,
+	
+		{
+		  "title"      : "Homework 3: Python - branches, looping, and functions",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/homework/3-python-branching-looping-functions",
+		  "date"       : "2021-03-03 00:00:00 -0600",
+		  "shortdate"  : "March 03, 2021"
+		} ,
+	
+		{
+		  "title"      : "Lecture 4: Python - branches, looping, and functions",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/lecture/4-python-branches-looping-functions",
+		  "date"       : "2021-03-01 00:00:00 -0600",
+		  "shortdate"  : "March 01, 2021"
+		} ,
+	
+		{
+		  "title"      : "Quiz 2: Programming history, Python values and variables",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/quiz/2-programming-history-python-values",
+		  "date"       : "2021-02-26 00:00:00 -0600",
+		  "shortdate"  : "February 26, 2021"
+		} ,
+	
+		{
+		  "title"      : "Lecture 3: Python - values, variables, and types",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/lecture/3-beginner-python",
+		  "date"       : "2021-02-10 00:00:00 -0600",
+		  "shortdate"  : "February 10, 2021"
+		} ,
+	
+		{
+		  "title"      : "Homework 2: Python programming",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/homework/2-python-programming",
+		  "date"       : "2021-02-10 00:00:00 -0600",
+		  "shortdate"  : "February 10, 2021"
+		} ,
+	
+		{
+		  "title"      : "Lecture 2: A brief history of computer programming",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/lecture/2-history",
+		  "date"       : "2021-02-08 00:00:00 -0600",
+		  "shortdate"  : "February 08, 2021"
+		} ,
+	
+		{
+		  "title"      : "Quiz 1: Version control system",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/quiz/1-version-control-system",
+		  "date"       : "2021-02-05 00:00:00 -0600",
+		  "shortdate"  : "February 05, 2021"
+		} ,
+	
+		{
+		  "title"      : "Lecture 1: Version Control Systems, Git, and GitHub",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/lecture/1-vcs",
+		  "date"       : "2021-01-20 00:00:00 -0600",
+		  "shortdate"  : "January 20, 2021"
+		} ,
+	
+		{
+		  "title"      : "Homework 1: Version Control Using Git and Github",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/homework/1-vcs",
+		  "date"       : "2021-01-20 00:00:00 -0600",
+		  "shortdate"  : "January 20, 2021"
+		} ,
+	
+		{
+		  "title"      : "Announcement 1: Assessing your programming knowledge and interests",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/announcement/1-assessing-your-knowledge-and-interests",
+		  "date"       : "2021-01-20 00:00:00 -0600",
+		  "shortdate"  : "January 20, 2021"
+		} ,
+	
+		{
+		  "title"      : "Announcement 0: Student-professor connection day",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/announcement/0-student-professor-connection-day",
+		  "date"       : "2021-01-20 00:00:00 -0600",
+		  "shortdate"  : "January 20, 2021"
+		} 
+	
+]
