@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DSP2021S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DSP2021S/" />
-<updated>2021-03-23T20:37:43-05:00</updated>
+<updated>2021-03-24T14:20:07-05:00</updated>
 <id>http:/DSP2021S/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -52,6 +52,9 @@ The following figure illustrates the grade distribution for this quiz.
 &lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;Name some of the roles and meanings of &lt;code&gt;_&lt;/code&gt; in Python scripts.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+See &lt;a href=&quot;https://www.cdslab.org/python/notes/values-variables-types/variables/variables.html#meanings-of-underscore-_-in-python&quot; target=&quot;_blank&quot;&gt;our Python lecture notes&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;A Geometric Series is defined by the following mathematical sequence,&lt;/p&gt;
@@ -63,6 +66,14 @@ The following figure illustrates the grade distribution for this quiz.
 \[1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16} + \ldots  + \frac{1}{2^m} = \sum^{m}_{n=0} \frac{1}{2^n} ~,\]
 
     &lt;p&gt;b) Write a function, using loops, that takes an input integer &lt;code&gt;m&lt;/code&gt; and computes the finite Geometric sum as defined above.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def getGeoSum(m):
+    &quot;&quot;&quot;
+    Compute geometric sum for a finite sequence of m elements.
+    &quot;&quot;&quot;
+    return sum([1/2**i for i in range(m)])
+&lt;/code&gt;&lt;/pre&gt;
   &lt;/li&gt;
   &lt;li&gt;Suppose you are given two lists of numbers,
     &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;even = [0,2,4,6,8]
@@ -73,6 +84,15 @@ odd = [1,3,5,7,9]
 &lt;/code&gt;&lt;/pre&gt;
     &lt;pre&gt;&lt;code&gt;[1, 5, 9, 13, 17]  
 &lt;/code&gt;&lt;/pre&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;even = [0,2,4,6,8]
+odd = [1,3,5,7,9]
+summ = [i+j for i,j in zip(odd,even)]
+summ
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code&gt;[1, 5, 9, 13, 17]  
+&lt;/code&gt;&lt;/pre&gt;
   &lt;/li&gt;
   &lt;li&gt;Consider the following for-loop,
     &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;mylist = list(range(0,10,2))
@@ -80,10 +100,69 @@ for item in mylist:
     mylist.append(item+1)
 &lt;/code&gt;&lt;/pre&gt;
     &lt;p&gt;How many iterations does this for-loop perform before ending? Explain briefly why.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+This for-loop never ends! Because at each iteration, a new element is added to the end of the list. You can check if this is indeed the case by adding a print statement inside the loop,&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;mylist = list(range(0,10,2))
+for item in mylist:
+    mylist.append(item+1)
+    print(item)
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code&gt;0  
+2  
+4  
+6  
+8  
+1  
+3  
+5  
+7  
+9  
+2  
+4  
+6  
+8  
+10  
+3  
+5  
+7  
+9  
+11  
+4  
+6  
+8  
+10  
+12  
+5  
+7  
+9  
+11  
+13  
+6  
+8  
+10  
+12  
+14  
+7  
+9  
+11   and the loop keeps printing forever!  
+&lt;/code&gt;&lt;/pre&gt;
   &lt;/li&gt;
   &lt;li&gt;What is the type of the returned value from the following function?
     &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def print_msg(msg = &quot;&quot;):
     return None if msg == &quot;&quot; else print(msg)
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+In all cases, the function returns &lt;code&gt;None&lt;/code&gt;.&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;type(print_msg())
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code&gt;NoneType
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;type(print_msg(&quot;string&quot;))
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code&gt;NoneType
 &lt;/code&gt;&lt;/pre&gt;
   &lt;/li&gt;
   &lt;li&gt;Fix the following code such that it yields the correct answer for the following test.
@@ -99,6 +178,16 @@ assertion
 &lt;/code&gt;&lt;/pre&gt;
     &lt;pre&gt;&lt;code&gt;True
 &lt;/code&gt;&lt;/pre&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+There are many ways to correct this function. Here is one way:&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def sub(value_pair):
+    &quot;&quot;&quot;
+    Return the difference between the two input values.
+    &quot;&quot;&quot;
+    return value_pair[1] - value_pair[0]
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;p&gt;Note the main issue was the use of &lt;code&gt;finally&lt;/code&gt; in the script which is a Python reserved word and cannot be used as variable name.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Fix the following code such that it yields the correct answer for the following test.
     &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def sum(values):
@@ -112,6 +201,25 @@ assertion
 assertion
 &lt;/code&gt;&lt;/pre&gt;
     &lt;pre&gt;&lt;code&gt;True
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+There are many ways to correct this function. Here is one way:&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def sum(values):
+    &quot;&quot;&quot;
+    Return the sum of the elements of the input ``values`` vector.
+    &quot;&quot;&quot;
+    summ = 0
+    for val in values: summ += val
+    return summ
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;p&gt;Here is another computationally more efficient way:&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;import numpy as np
+def sum(values):
+    &quot;&quot;&quot;
+    Return the sum of the elements of the input ``values`` vector.
+    &quot;&quot;&quot;
+    return np.sum(values)
 &lt;/code&gt;&lt;/pre&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
