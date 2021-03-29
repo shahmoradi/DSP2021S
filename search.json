@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Quiz 4: Python - Recursive functions",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/quiz/4-recursive-functions",
+		  "date"       : "2021-03-29 00:00:00 -0500",
+		  "shortdate"  : "March 29, 2021"
+		} ,
+	
+		{
 		  "title"      : "Quiz 3: Python variables, branches, loops, and functions",
 		  "category"   : "",
 		  "url"        : "/DSP2021S/quiz/3-variables-branches-loops-functions",
