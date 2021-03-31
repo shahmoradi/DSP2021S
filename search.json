@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Lecture 4: Python - modules and data I/O",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/lecture/5-modules-io",
+		  "date"       : "2021-03-31 00:00:00 -0500",
+		  "shortdate"  : "March 31, 2021"
+		} ,
+	
+		{
 		  "title"      : "Quiz 4: Python - Recursive functions",
 		  "category"   : "",
 		  "url"        : "/DSP2021S/quiz/4-recursive-functions",

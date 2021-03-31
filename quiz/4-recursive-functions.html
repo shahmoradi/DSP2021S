@@ -163,6 +163,9 @@ The following figure illustrates the grade distribution for this quiz.
 <ol>
   <li>
     <p>What is the closest programming construct equivalent to the functionality and usage of recursive functions?</p>
+
+    <p><strong>Answer:</strong><br />
+The concept of for-loops.</p>
   </li>
   <li>
     <p>Write a function named <code>sort(array)</code> that sorts an input vector of numeric values <code>array</code> in either ascending or descending.<br />
@@ -173,6 +176,30 @@ For example,</p>
 </code></pre>
 
     <p><strong>Hint:</strong> Use the ideas and concepts from HW 4, in particular, how we found the minimum and maximum of arrays using recursive functions. Think of sorting as a problem of recursively finding the minimum or maximum of an array or its subsections.</p>
+
+    <p><strong>Answer:</strong></p>
+    <pre><code class="language-python">def findMaxValMaxLoc(array):
+    lenArray = len(array)
+    if lenArray&gt;1:
+        maxVal, maxLoc = findMaxValMaxLoc(array[1:])
+        if array[0]&gt;maxVal:
+            return array[0], 0
+        else:
+            return maxVal, maxLoc + 1
+    elif lenArray==1:
+        return array[0], 0
+    else: # lenArray &lt; 1
+        return None
+
+def sort(array):
+    if not array: return []
+    maxval, maxloc = findMaxValMaxLoc(array)
+    sortedArray = [maxval]
+    array.pop(maxloc)
+    for element in sort(array): sortedArray.append(element)
+    print(sortedArray)
+    return sortedArray
+</code></pre>
   </li>
 </ol>
 
@@ -242,8 +269,8 @@ For example,</p>
 
     <footer class="notepad-site-footer">
     <div class="copyright">
-         <!-- <section>Last updated 2021 / 03 / 29</section></br> -->
-         <section>Last updated Monday, 29 Mar 2021 at 02:47 PM CST</section></br>
+         <!-- <section>Last updated 2021 / 03 / 31</section></br> -->
+         <section>Last updated Wednesday, 31 Mar 2021 at 02:33 PM CST</section></br>
          <section>All content exclusively maintained by <a href=https://www.shahmoradi.org target="_blank">Amir Shahmoradi</a> <!-- &copy;--> </section></br>
          <section><a class="icon-ghost" href="https://www.uta.edu/physics/" target="_blank">Department of Physics | Data Science Program</a></section></br>
          <section><a class="icon-ghost" href="https://www.uta.edu/" target="_blank">The University of Texas at Arlington</a></section></br>

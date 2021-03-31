@@ -22,6 +22,11 @@ callback([
   } ,
 
   {
+    "text": "Lecture 4: Python - modules and data I/O",
+    "href": "/DSP2021S/lecture/5-modules-io"
+  } ,
+
+  {
     "text": "Lecture 4: Python - branches, looping, and functions",
     "href": "/DSP2021S/lecture/4-python-branches-looping-functions"
   } ,
