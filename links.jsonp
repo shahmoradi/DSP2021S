@@ -2,6 +2,11 @@
 callback([
 
   {
+    "text": "Quiz 5: Python - Data transfer",
+    "href": "/DSP2021S/quiz/5-data-transfer"
+  } ,
+
+  {
     "text": "Quiz 4: Python - Recursive functions",
     "href": "/DSP2021S/quiz/4-recursive-functions"
   } ,
