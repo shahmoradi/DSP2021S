@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Final exam: semester project",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/exam/1-final-project",
+		  "date"       : "2021-04-14 00:00:00 -0500",
+		  "shortdate"  : "April 14, 2021"
+		} ,
+	
+		{
 		  "title"      : "Quiz 5: Python - Data transfer",
 		  "category"   : "",
 		  "url"        : "/DSP2021S/quiz/5-data-transfer",
