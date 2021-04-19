@@ -1,6 +1,22 @@
 [
 	
 		{
+		  "title"      : "Lecture 6: Python - Vectorization, visualization, and probabilistic modeling",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/lecture/6-visualization-modeling",
+		  "date"       : "2021-04-16 00:00:00 -0500",
+		  "shortdate"  : "April 16, 2021"
+		} ,
+	
+		{
+		  "title"      : "Homework 6: Python - Visualization and modeling",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/homework/6-python-visualization-modeling",
+		  "date"       : "2021-04-16 00:00:00 -0500",
+		  "shortdate"  : "April 16, 2021"
+		} ,
+	
+		{
 		  "title"      : "Final exam: semester project",
 		  "category"   : "",
 		  "url"        : "/DSP2021S/exam/1-final-project",
@@ -25,7 +41,7 @@
 		} ,
 	
 		{
-		  "title"      : "Lecture 4: Python - modules, data I/O, exception handling, and unit testing",
+		  "title"      : "Lecture 5: Python - modules, data I/O, exception handling, and unit testing",
 		  "category"   : "",
 		  "url"        : "/DSP2021S/lecture/5-modules-io-exception",
 		  "date"       : "2021-03-31 00:00:00 -0500",

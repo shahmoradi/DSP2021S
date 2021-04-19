@@ -27,7 +27,12 @@ callback([
   } ,
 
   {
-    "text": "Lecture 4: Python - modules, data I/O, exception handling, and unit testing",
+    "text": "Lecture 6: Python - Vectorization, visualization, and probabilistic modeling",
+    "href": "/DSP2021S/lecture/6-visualization-modeling"
+  } ,
+
+  {
+    "text": "Lecture 5: Python - modules, data I/O, exception handling, and unit testing",
     "href": "/DSP2021S/lecture/5-modules-io-exception"
   } ,
 
@@ -49,6 +54,11 @@ callback([
   {
     "text": "Lecture 1: Version Control Systems, Git, and GitHub",
     "href": "/DSP2021S/lecture/1-vcs"
+  } ,
+
+  {
+    "text": "Homework 6: Python - Visualization and modeling",
+    "href": "/DSP2021S/homework/6-python-visualization-modeling"
   } ,
 
   {

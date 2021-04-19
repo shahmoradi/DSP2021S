@@ -7,13 +7,83 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DSP2021S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DSP2021S/" />
-<updated>2021-04-14T14:30:32-05:00</updated>
+<updated>2021-04-19T13:28:35-05:00</updated>
 <id>http:/DSP2021S/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/DSP2021S/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Lecture 6: Python - Vectorization, visualization, and probabilistic modeling]]></title>
+  <link rel="alternate" type="text/html" href="http:/DSP2021S/lecture/6-visualization-modeling"/>
+  <id>http:/DSP2021S/lecture/6-visualization-modeling</id>
+  <published>2021-04-16T00:00:00-05:00</published>
+  <updated>0000-00-00T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DSP2021S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;This lecture aims at providing an overview of packaging methods in Python, as well as data input/output methods.&lt;/p&gt;
+
+&lt;div class=&quot;post_toc&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The material for this lecture can be found at:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/scientific-computing/vectorization/vectorization.html&quot; target=&quot;_blank&quot;&gt;Vectorization&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/visualization/overview/overview.html&quot; target=&quot;_blank&quot;&gt;Visualization: Overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/visualization/2d/2d.html&quot; target=&quot;_blank&quot;&gt;Visualization: 2D&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/visualization/3d/3d.html&quot; target=&quot;_blank&quot;&gt;Visualization: 3D&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/probabilistic-modeling/random-numbers/random-numbers.html&quot; target=&quot;_blank&quot;&gt;Probabilistic modeling: Random numbers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/probabilistic-modeling/monte-carlo/monte-carlo.html&quot; target=&quot;_blank&quot;&gt;Probabilistic modeling: Monte Carlo methods&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/lecture/6-visualization-modeling&quot;&gt;Lecture 6: Python - Vectorization, visualization, and probabilistic modeling&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on April 16, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 6: Python - Visualization and modeling]]></title>
+  <link rel="alternate" type="text/html" href="http:/DSP2021S/homework/6-python-visualization-modeling"/>
+  <id>http:/DSP2021S/homework/6-python-visualization-modeling</id>
+  <published>2021-04-16T00:00:00-05:00</published>
+  <updated>2021-04-16T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DSP2021S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;♣ &lt;strong&gt;Due Date: Monday Monday 3, 2021 2:30 PM&lt;/strong&gt;. This homework aims at giving you some experience with visualization and probabilistic programming in Python.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/monte-carlo-approximation-of-pi/monte-carlo-approximation-of-pi&quot; target=&quot;_blank&quot;&gt;Monte Carlo approximation of the number Pi&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/regression-simple-least-squares-method/regression-simple-least-squares-method&quot; target=&quot;_blank&quot;&gt;Regression: obtaining the most likely mean of a set of Standard Normally Distributed Random Variables&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;Regression: Predicting the global land temperature of the Earth in 2050 from the past data&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/regression-simple-least-absolute-deviations-method/regression-simple-least-squares-method&quot; target=&quot;_blank&quot;&gt;Regression: obtaining the most likely mean of a set of Standard Normally Distributed Random Variables via the least absolute deviations method&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;##&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/exception-handling-projectile-motion/exception-handling-projectile-motion&quot; target=&quot;_blank&quot;&gt;Exception handling in the case of a simple projectile motion&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/homework/6-python-visualization-modeling&quot;&gt;Homework 6: Python - Visualization and modeling&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on April 16, 2021.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -267,7 +337,7 @@ The following figure illustrates the grade distribution for this quiz.
 
 
 <entry>
-  <title type="html"><![CDATA[Lecture 4: Python - modules, data I/O, exception handling, and unit testing]]></title>
+  <title type="html"><![CDATA[Lecture 5: Python - modules, data I/O, exception handling, and unit testing]]></title>
   <link rel="alternate" type="text/html" href="http:/DSP2021S/lecture/5-modules-io-exception"/>
   <id>http:/DSP2021S/lecture/5-modules-io-exception</id>
   <published>2021-03-31T00:00:00-05:00</published>
@@ -297,7 +367,7 @@ The following figure illustrates the grade distribution for this quiz.
 &lt;/ul&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/lecture/5-modules-io-exception&quot;&gt;Lecture 4: Python - modules, data I/O, exception handling, and unit testing&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on March 31, 2021.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/lecture/5-modules-io-exception&quot;&gt;Lecture 5: Python - modules, data I/O, exception handling, and unit testing&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on March 31, 2021.&lt;/p&gt;</content>
 </entry>
 
 
