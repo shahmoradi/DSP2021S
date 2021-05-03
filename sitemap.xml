@@ -45,7 +45,15 @@
         <loc>/DSP2021S/tags/index.html</loc>
     </url>
     
+    <url>
+        <loc>/DSP2021S/page2/</loc>
+    </url>
+    
 
+    
+    <url>
+        <loc>/DSP2021S/quiz/6-monte-carlo</loc>
+    </url>
     
     <url>
         <loc>/DSP2021S/lecture/6-visualization-modeling</loc>

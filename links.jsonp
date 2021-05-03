@@ -2,6 +2,11 @@
 callback([
 
   {
+    "text": "Quiz 6: Python - Visualization, random numbers, and Monte Carlo",
+    "href": "/DSP2021S/quiz/6-monte-carlo"
+  } ,
+
+  {
     "text": "Quiz 5: Python - Data transfer",
     "href": "/DSP2021S/quiz/5-data-transfer"
   } ,

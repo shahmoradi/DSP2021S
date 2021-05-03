@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Quiz 6: Python - Visualization, random numbers, and Monte Carlo",
+		  "category"   : "",
+		  "url"        : "/DSP2021S/quiz/6-monte-carlo",
+		  "date"       : "2021-05-03 00:00:00 -0500",
+		  "shortdate"  : "May 03, 2021"
+		} ,
+	
+		{
 		  "title"      : "Lecture 6: Python - Vectorization, visualization, and probabilistic modeling",
 		  "category"   : "",
 		  "url"        : "/DSP2021S/lecture/6-visualization-modeling",
