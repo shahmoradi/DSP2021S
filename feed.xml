@@ -7,56 +7,13 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DSP2021S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DSP2021S/" />
-<updated>2021-05-03T16:06:03-05:00</updated>
+<updated>2023-01-16T21:25:41-06:00</updated>
 <id>http:/DSP2021S/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/DSP2021S/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
-
-
-<entry>
-  <title type="html"><![CDATA[Quiz 6: Python - Visualization, random numbers, and Monte Carlo]]></title>
-  <link rel="alternate" type="text/html" href="http:/DSP2021S/quiz/6-monte-carlo"/>
-  <id>http:/DSP2021S/quiz/6-monte-carlo</id>
-  <published>2021-05-03T00:00:00-05:00</published>
-  <updated>2021-05-03T00:00:00-05:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/DSP2021S</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;!--
-This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
-
-The following figure illustrates the grade distribution for this quiz.  
-&lt;figure&gt;
-    &lt;img src=&quot;http:/DSP2021S/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
-    &lt;figcaption style=&quot;text-align:center&quot;&gt;
-        Maximum possible points is 1.
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
---&gt;
-
-&lt;p&gt;This quiz aims at testing your basic knowledge of visualization, random numbers, and Monte Carlo methods in Python. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to &lt;strong&gt;quiz/6/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/monte-carlo-approximation-of-pi-full-circle/monte-carlo-approximation-of-pi-full-circle&quot; target=&quot;_blank&quot;&gt;Monte Carlo approximation of the number Pi using a full circle&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/monte-carlo-approximation-of-heart-area/monte-carlo-approximation-of-heart-area&quot; target=&quot;_blank&quot;&gt;Monte Carlo approximation of the area of heart&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/quiz/6-monte-carlo&quot;&gt;Quiz 6: Python - Visualization, random numbers, and Monte Carlo&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on May 03, 2021.&lt;/p&gt;</content>
-</entry>
 
 
 <entry>
@@ -96,291 +53,6 @@ The following figure illustrates the grade distribution for this quiz.
 
 
 <entry>
-  <title type="html"><![CDATA[Homework 6: Python - Visualization and modeling]]></title>
-  <link rel="alternate" type="text/html" href="http:/DSP2021S/homework/6-python-visualization-modeling"/>
-  <id>http:/DSP2021S/homework/6-python-visualization-modeling</id>
-  <published>2021-04-16T00:00:00-05:00</published>
-  <updated>2021-04-16T00:00:00-05:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/DSP2021S</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    
-&lt;p&gt;♣ &lt;strong&gt;Due Date: Wednesday 5, 2021 2:30 PM&lt;/strong&gt;. This homework aims at giving you some experience with visualization and probabilistic programming in Python.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note: You can choose only 4 out of the following 8 problems to return as your HW 6. EXTRA CREDIT: You can solve and return all of the problems to also replace your lowest quiz/HW grade in the semester, in addition to getting the credit or HW 6.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/monte-carlo-approximation-of-pi/monte-carlo-approximation-of-pi&quot; target=&quot;_blank&quot;&gt;Monte Carlo approximation of the number Pi&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/monte-carlo-sampling-of-bimodal-gaussian/monte-carlo-sampling-of-bimodal-gaussian&quot; target=&quot;_blank&quot;&gt;Monte Carlo sampling of the sum of two Gaussian distributions&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/monte-carlo-sampling-of-distribution-functions/monte-carlo-sampling-of-distribution-functions&quot; target=&quot;_blank&quot;&gt;Monte Carlo sampling of distribution functions&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/simulating-monty-hall-game/simulating-monty-hall-game&quot; target=&quot;_blank&quot;&gt;Simulating the Monty Hall game&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/random-walk-central-limit-theorem/random-walk-central-limit-theorem&quot; target=&quot;_blank&quot;&gt;Understanding the Central Limit Theorem via random walk&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/regression-simple-least-squares-method/regression-simple-least-squares-method&quot; target=&quot;_blank&quot;&gt;Regression: obtaining the most likely mean of a set of Standard Normally Distributed Random Variables&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/regression-predicting-future-global-land-temperature/regression-predicting-future-global-land-temperature&quot; target=&quot;_blank&quot;&gt;Regression: Predicting the global land temperature of the Earth in 2050 from the past data&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/regression-simple-least-absolute-deviations-method/regression-simple-least-squares-method&quot; target=&quot;_blank&quot;&gt;Regression: obtaining the most likely mean of a set of Standard Normally Distributed Random Variables via the least absolute deviations method&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/homework/6-python-visualization-modeling&quot;&gt;Homework 6: Python - Visualization and modeling&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on April 16, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Final exam: semester project]]></title>
-  <link rel="alternate" type="text/html" href="http:/DSP2021S/exam/1-final-project"/>
-  <id>http:/DSP2021S/exam/1-final-project</id>
-  <published>2021-04-14T00:00:00-05:00</published>
-  <updated>2021-04-14T00:00:00-05:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/DSP2021S</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;p&gt;This is page describes the final semester project that will serve as the final exam for this course. Please submit all your efforts for this project (all files, data, and results) in &lt;code&gt;DSP2021S/exams/final/&lt;/code&gt; directory in your private repository for this course. Don’t forget to push your answers to your remote Github repository by &lt;strong&gt;2:30 PM, Monday, May 10, 2021&lt;/strong&gt;.&lt;br /&gt;
-&lt;strong&gt;Note: I strongly urge you to attend the future lectures until the end of the semester and seek help from the instructor (Amir) to tackle these problems.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;For your final project, choose one of the two projects below.&lt;/p&gt;
-
-&lt;div class=&quot;post_toc&quot;&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;nonlinear-regression&quot;&gt;Nonlinear Regression&lt;/h2&gt;
-
-&lt;p&gt;Inside the directory for the project (&lt;code&gt;DSP2021S/exams/final/&lt;/code&gt;) create three other folders: &lt;code&gt;data&lt;/code&gt;, &lt;code&gt;src&lt;/code&gt;, &lt;code&gt;results&lt;/code&gt;. The &lt;code&gt;data&lt;/code&gt; folder contains the &lt;a href=&quot;http:/DSP2021S/exam/1-problem/cells.mat&quot; target=&quot;_blank&quot;&gt;input data&lt;/a&gt; for this project. The &lt;code&gt;src&lt;/code&gt; folder should contain all the codes that you write for this project, and the &lt;code&gt;results&lt;/code&gt; folder should contain all the results generated by your code.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;data-reduction-and-visualization&quot;&gt;Data reduction and visualization&lt;/h3&gt;
-
-&lt;p&gt;Our goal in this project is to fit a mathematical model of the growth of living cells to real experimental data for the growth of a cancer tumor in the brain of a rat. You can download the data in the form of a MATLAB data file for this project from &lt;a href=&quot;http:/DSP2021S/exam/1-problem/cells.mat&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. Write a set of separate Python codes that perform the following tasks one after the other, and output all the results to the &lt;code&gt;results&lt;/code&gt; folder described above. Since you have multiple Python codes each in a separate file for different purposes, you should also write a &lt;code&gt;main&lt;/code&gt; Python code, such that when the user of your codes runs on the Bash command line,&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;main.py
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;then all the necessary Python codes to generate all the results will be called by this &lt;code&gt;main&lt;/code&gt; script.&lt;/p&gt;
-
-&lt;p&gt;Initially at time $t=0 ~\mathrm{[days]}$, $100,000\pm10,000$ brain tumor cells are injected to the brain of the rat. These cells are then allowed to grow for 10 days. Then starting at day 10, the brain of the rat is imaged using an &lt;a href=&quot;https://en.wikipedia.org/wiki/Magnetic_resonance_imaging&quot; target=&quot;_blank&quot;&gt;MRI machine&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Each image results in a 4-dimensional double-precision MATLAB matrix &lt;code&gt;cells(:,:,:,:)&lt;/code&gt;, corresponding to dimensions &lt;code&gt;cells(y,x,z,time)&lt;/code&gt;. This data is collected from MRI imaging of the rat’s brain almost every other day for two weeks. For example, &lt;code&gt;cells(:,:,:,1)&lt;/code&gt; contains the number of cells at each point in space (y,x,z) at the first time point, or, &lt;code&gt;cells(:,:,10,1)&lt;/code&gt; represents a (XY) slice of MRI at $z=1$ and $t=1 [days]$.&lt;/p&gt;
-
-&lt;p&gt;Therefore, the vector of times at which we have the number of tumor cells measured would be,&lt;/p&gt;
-
-\[Time = [ 0, 10, 12, 14, 16, 18, 20, 22 ] ~,\]
-
-&lt;p&gt;in units of days. Given this data set,&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1. &lt;/strong&gt; First write a Python script that reads the input MATLAB binary file containing cell numbers at different positions in the rat’s brain measured by MRI, on different days.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. &lt;/strong&gt; Write Python codes that generate a set of figures as similar as possible to the following figures (specific color-codes of the curves and figures do not matter, focus more on the format of the plots and its parts).&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img src=&quot;http:/DSP2021S/exam/1-problem/figures/tvccZSliceSubplotWithXYlab_rad_00gy_1_t10.0.png&quot; width=&quot;900&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&quot;http:/DSP2021S/exam/1-problem/figures/tvccZSliceSubplotWithXYlab_rad_00gy_2_t12.0.png&quot; width=&quot;900&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&quot;http:/DSP2021S/exam/1-problem/figures/tvccZSliceSubplotWithXYlab_rad_00gy_3_t14.0.png&quot; width=&quot;900&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&quot;http:/DSP2021S/exam/1-problem/figures/tvccZSliceSubplotWithXYlab_rad_00gy_5_t16.0.png&quot; width=&quot;900&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&quot;http:/DSP2021S/exam/1-problem/figures/tvccZSliceSubplotWithXYlab_rad_00gy_6_t18.0.png&quot; width=&quot;900&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&quot;http:/DSP2021S/exam/1-problem/figures/tvccZSliceSubplotWithXYlab_rad_00gy_7_t20.0.png&quot; width=&quot;900&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;obtaining-the-error-in-tumor-cell-count&quot;&gt;Obtaining the error in tumor cell count&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;3. &lt;/strong&gt; Our assumption here is that the uncertainty in the total number of tumor cells at each time point is given by the number of tumor cells at the boundary of the tumor. Therefore,&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;(This part is optional extra credit.)&lt;/strong&gt; you will have to write a Python code that identifies the boundary of the tumor at each time point and then sums over the count cells in all boundary points and uses that as the error in the number of tumor cell counts.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If you did not solve the above optional part, then assume that the uncertainty in the count of tumor cells at any given point in time is just $5\%$ of the total count of tumor cells. For the illustration of the error bars, you will need Python functions such as &lt;code&gt;pyplot.errorbar()&lt;/code&gt; of &lt;code&gt;matplotlib&lt;/code&gt; module. In the end, you should get and save a figure in your project’s figure folder like the following figure,&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure&gt;
-    &lt;img src=&quot;http:/DSP2021S/exam/1-problem/figures/growthCurve.png&quot; width=&quot;900&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Note that this part of the project is completely independent of the modeling part described in the following section.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-mathematical-model-of-tumor-growth&quot;&gt;The mathematical model of tumor growth&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;4. &lt;/strong&gt; Now our goal is to fit the time evolution of the growth of this tumor, using a mathematical model. To do so, we need to find the best-fit parameters of the model. The mathematical model we will use here is called the &lt;a href=&quot;https://en.wikipedia.org/wiki/Gompertz_function&quot; target=&quot;_blank&quot;&gt;Gompertzian growth model&lt;/a&gt;. Here, we will use a slightly modified form of the Gompertzian function of the following form,&lt;/p&gt;
-
-\[N(t,\lambda,c) = N_0 \times \exp\bigg( \lambda~\bigg[ 1-\exp(-ct) \bigg] \bigg) ~,\]
-
-&lt;p&gt;where $N(t,\lambda,c)$ is the &lt;strong&gt;predicted number&lt;/strong&gt; of tumor cells at time $t$, $N_0$ is the initial number of tumor cells at time $t=0$ days, $\lambda$ is the growth rate parameter of the model, and $c$ is just another parameter of the model. We already know the initial value of the number of tumor cells, $N_0=100,000\pm10,000$. Therefore, we can fix $N_0$ to $100,000$ in the equation of the model given above.&lt;/p&gt;
-
-&lt;p&gt;However, we don’t know the values of the parameters $\lambda$ and $c$. Thus, we would like to find their best values given the input tumor cell data using some Python optimization algorithm.&lt;/p&gt;
-
-&lt;p&gt;This Gompertzian growth model is called our &lt;strong&gt;physical model&lt;/strong&gt; for this problem, because it describes the physics of our problem (The physics/biology of the tumor growth).&lt;/p&gt;
-
-&lt;h4 id=&quot;combining-the-physical-model-with-a-regression-model&quot;&gt;Combining the physical model with a regression model&lt;/h4&gt;
-
-&lt;p&gt;Now, if our physical model was ideally perfect in describing the data, the curve of the model prediction would pass through all the points in the growth curve plot of the above figure, thus providing a perfect description of data. This is, however, never the case, as it is famously said &lt;strong&gt;all models are wrong, but some are useful&lt;/strong&gt;. In other words, the model prediction never matches observation perfectly.&lt;/p&gt;
-
-&lt;p&gt;Therefore, we have to seek for the parameter values that can bring the model prediction us as close as possible to data. To do so, we define a &lt;strong&gt;statistical model&lt;/strong&gt; in addition to the &lt;strong&gt;physical model&lt;/strong&gt; described above. In other words, we have to define a statistical regression model (the renowned &lt;strong&gt;least-squares method&lt;/strong&gt;) that gives us the probability $\pi(\log N_{obs}|\log N(t))$ of observing individual data points at each of the given times,&lt;/p&gt;
-
-\[\pi(\log N_{obs} | \log N(t,\lambda,c),\sigma) = \frac{1}{\sigma\sqrt{2\pi}} \exp\bigg( - \frac{ \big[ \log N_{obs}(t)-\log N(t,\lambda,c) \big]^2}{2\sigma^2} \bigg) ~,\]
-
-&lt;p&gt;Note that our statistical model given above is a Normal probability density function, with its mean parameter represented by &lt;strong&gt;the log&lt;/strong&gt; of the output of our physical model, $\log N(t,\lambda,c)$, and its standard deviation represented by $\sigma$, which is unknown, and we seek to find it. The symbol $\pi$, whenever it appears with parentheses, like $\pi()$, it means the probability of the entity inside the parentheses. However, whenever it appears alone, it means the famous number PI, $\pi\approx 3.1415$.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Why do we use the logarithm of the number of cells instead of using the number of cells directly?&lt;/strong&gt; The reason behind it is slightly complicated. A simple (but not entirely correct argument) is the following: We do so, because the tumor cell counts at later times become extremely large numbers, on the order of several million cells (For example, look at the number of cells in the late stages of the tumor growth, around $t=20$ days). Therefore, to make sure that we don’t hit any numerical precision limits of the computer when dealing with such huge numbers, we work with the logarithm of the number of tumor cells instead of their true non-logarithmic values.&lt;/p&gt;
-
-&lt;p&gt;We have seven data points, so the overall probability of observing all of data $\mathcal{D}$ together (the time vector and the logarithm of the number of cells at different times) given the parameters of the model, $\mathcal{L}(\mathcal{D}|\lambda,c,\sigma)$, is the product of their individual probabilities of observations given by the above equation,&lt;/p&gt;
-
-\[\begin{align*}
-\mathcal{L}(\mathcal{D}|\lambda,c,\sigma) 
-&amp;amp;= \prod_{i=1}^{n=8} \pi(\log N_{obs}(t_i) | \log N(t_i,\lambda,c),\sigma) \\\\
-&amp;amp;= \prod_{i=1}^{n=8} \frac{1}{\sigma\sqrt{2\pi}} \exp\bigg( - \frac{ \big[ \log N_{obs}(t_i)-\log N(t_i,\lambda,c) \big]^2}{2\sigma^2} \bigg) ~.
-\end{align*}\]
-
-&lt;p&gt;Frequently, however, you would want to work with $\log\mathcal{L}$ instead of $\mathcal{L}$. This is again because the numbers involved are extremely small often below the precision limits of the computer. So, by taking the logarithm of the numbers, we work instead with the number’s exponent, which looks just like a normal number (not so big, not so small). So, by taking the log, the above equation becomes,&lt;/p&gt;
-
-\[\begin{align*}
-    \log\mathcal{L}(\mathcal{D}|\lambda,c,\sigma)
-    &amp;amp;= \sum_{i=1}^{n=8} \log \pi( \log N_{obs}(t_i) | \log N(t_i,\lambda,c),\sigma) \\\\
-    &amp;amp;= \sum_{i=1}^{n=8} \log \bigg[ \frac{1}{\sigma\sqrt{2\pi}} \exp\bigg( - \frac{ \big[ \log N_{obs}(t_i) - \log N(t_i,\lambda,c) \big]^2}{2\sigma^2} \bigg) \bigg] ~.
-\end{align*}\]
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5. &lt;/strong&gt;
-Now the goal is to use an optimization algorithm in Python, such as &lt;code&gt;fmin()&lt;/code&gt; of &lt;code&gt;scipy&lt;/code&gt; package, to find the most likely set of the parameters of the model $\lambda,c,\sigma$ that give the highest likelihood of obtaining the available data, which is given by the number $\log\mathcal{L}(\mathcal{D}|\lambda,c,\sigma)$ from the above equation. So we want to find the set of parameters for which this number given by the above equation is maximized. You can also use any Python optimization function or method that you wish, to obtain the best parameters.&lt;/p&gt;
-
-&lt;p&gt;However, if you use &lt;code&gt;fmin()&lt;/code&gt; of &lt;code&gt;scipy&lt;/code&gt; package, then note that this function finds the minimum of an input function, not the maximum. What we want is to find the maximum of $\log\mathcal{L}(\mathcal{D}|\lambda,c,\sigma)$.
-What is the solution then? Very simple.
-We can multiply the value of $\log\mathcal{L}(\mathcal{D}|\lambda,c,\sigma)$ by a negative sign so that the maximum value is converted to a minimum. But, note that the position (the set of parameter values) at which this minimum occurs, will remain the same as the maximum position for $\log\mathcal{L}(\mathcal{D}|\lambda,c,\sigma)$.&lt;/p&gt;
-
-&lt;p&gt;So, now rewrite your likelihood function above by multiplying its final result (which is just number) by a negative sign. Then you pass this modified function to &lt;code&gt;fmin()&lt;/code&gt; of &lt;code&gt;scipy&lt;/code&gt; package and you find the optimal parameters. Note that &lt;code&gt;fmin()&lt;/code&gt; of &lt;code&gt;scipy&lt;/code&gt; package takes as input also a set of initial staring parameter values to initiate the search for the optimal parameters. You can use $(\lambda,c,\sigma) = [10,0.1,1]$ as your starting point given to &lt;code&gt;fmin()&lt;/code&gt; of &lt;code&gt;scipy&lt;/code&gt; package to search for the optimal values of the parameters.&lt;/p&gt;
-
-&lt;p&gt;Then redraw the above tumor evolution curve and show the result from the model prediction as well, like the following,&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img src=&quot;http:/DSP2021S/exam/1-problem/figures/growthCurveFit.png&quot; width=&quot;900&quot; /&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Report also your best-fit parameters in a file and submit them with all the figures and your codes to your exam folder repository.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;visualizing-data-from-the-web&quot;&gt;Visualizing data from the web&lt;/h2&gt;
-
-&lt;p&gt;Check out this problem: &lt;a href=&quot;https://www.cdslab.org/recipes/programming/reading-data-from-web/reading-data-from-web&quot; target=&quot;_blank&quot;&gt;Reading data from the World Wide Web&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/exam/1-final-project&quot;&gt;Final exam: semester project&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on April 14, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Quiz 5: Python - Data transfer]]></title>
-  <link rel="alternate" type="text/html" href="http:/DSP2021S/quiz/5-data-transfer"/>
-  <id>http:/DSP2021S/quiz/5-data-transfer</id>
-  <published>2021-04-12T00:00:00-05:00</published>
-  <updated>2021-04-12T00:00:00-05:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/DSP2021S</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;!--
-This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
-
-The following figure illustrates the grade distribution for this quiz.  
-&lt;figure&gt;
-    &lt;img src=&quot;http:/DSP2021S/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
-    &lt;figcaption style=&quot;text-align:center&quot;&gt;
-        Maximum possible points is 1.
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
---&gt;
-
-&lt;p&gt;This quiz aims at testing your basic knowledge of recursive functions in Python. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to &lt;strong&gt;quiz/5/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/parsing-data-from-web/parsing-data-from-web&quot; target=&quot;_blank&quot;&gt;Parsing World Wide Web data&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/formatted-input-to-csv-output/formatted-input-to-csv-output&quot; target=&quot;_blank&quot;&gt;Data transfer: Converting formatted input to Comma-Separated-Values (CSV) output&lt;/a&gt; (extra credit).&lt;/li&gt;
-&lt;/ol&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/quiz/5-data-transfer&quot;&gt;Quiz 5: Python - Data transfer&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on April 12, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Homework 5: Python - Modules, data transfer, and exception handling]]></title>
-  <link rel="alternate" type="text/html" href="http:/DSP2021S/homework/5-python-modules-data-transfer"/>
-  <id>http:/DSP2021S/homework/5-python-modules-data-transfer</id>
-  <published>2021-04-02T00:00:00-05:00</published>
-  <updated>2021-04-02T00:00:00-05:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/DSP2021S</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    
-&lt;p&gt;♣ &lt;strong&gt;Due Date: Monday April 14, 2021 2:30 PM&lt;/strong&gt;. This homework aims at giving you some experience with modules and packaging in Python as well as data IO methods.&lt;/p&gt;
-
-&lt;h2 id=&quot;modules&quot;&gt;Modules&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/python-packaging/python-packaging&quot; target=&quot;_blank&quot;&gt;Python packaging&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/matrix-initialization/matrix-initialization&quot; target=&quot;_blank&quot;&gt;Matrix Initialization&lt;/a&gt;.
-    &lt;h2 id=&quot;data-transfer-io&quot;&gt;Data transfer (I/O)&lt;/h2&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/command-line-input-arguments-eval/command-line-input-arguments-eval&quot; target=&quot;_blank&quot;&gt;Command line input arguments summation via eval()&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/command-line-input-arguments-summation/command-line-input-arguments-summation&quot; target=&quot;_blank&quot;&gt;Command line input arguments summation via sum()&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/command-line-input-option-value/command-line-input-option-value&quot; target=&quot;_blank&quot;&gt;Command line input option-value pairs&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/data-transfer-amino-acid/data-transfer-amino-acid&quot; target=&quot;_blank&quot;&gt;Data transfer: Parsing Amino Acid data file&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/csv-input-to-formatted-output/csv-input-to-formatted-output&quot; target=&quot;_blank&quot;&gt;Data transfer: Converting Comma-Separated-Values (CSV) input to formatted output&lt;/a&gt;.
-    &lt;h2 id=&quot;exception-handling&quot;&gt;Exception handling&lt;/h2&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/exception-handling-projectile-motion/exception-handling-projectile-motion&quot; target=&quot;_blank&quot;&gt;Exception handling in the case of a simple projectile motion&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/homework/5-python-modules-data-transfer&quot;&gt;Homework 5: Python - Modules, data transfer, and exception handling&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on April 02, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
   <title type="html"><![CDATA[Lecture 5: Python - modules, data I/O, exception handling, and unit testing]]></title>
   <link rel="alternate" type="text/html" href="http:/DSP2021S/lecture/5-modules-io-exception"/>
   <id>http:/DSP2021S/lecture/5-modules-io-exception</id>
@@ -412,373 +84,6 @@ The following figure illustrates the grade distribution for this quiz.
 
   
   &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/lecture/5-modules-io-exception&quot;&gt;Lecture 5: Python - modules, data I/O, exception handling, and unit testing&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on March 31, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Quiz 4: Python - Recursive functions]]></title>
-  <link rel="alternate" type="text/html" href="http:/DSP2021S/quiz/4-recursive-functions"/>
-  <id>http:/DSP2021S/quiz/4-recursive-functions</id>
-  <published>2021-03-29T00:00:00-05:00</published>
-  <updated>2021-03-29T00:00:00-05:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/DSP2021S</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;!--
-This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
-
-The following figure illustrates the grade distribution for this quiz.  
-&lt;figure&gt;
-    &lt;img src=&quot;http:/DSP2021S/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
-    &lt;figcaption style=&quot;text-align:center&quot;&gt;
-        Maximum possible points is 1.
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
---&gt;
-
-&lt;p&gt;This quiz aims at testing your basic knowledge of recursive functions in Python. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to &lt;strong&gt;quiz/4/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the closest programming construct equivalent to the functionality and usage of recursive functions?&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-The concept of for-loops.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Write a function named &lt;code&gt;sort(array)&lt;/code&gt; that sorts an input vector of numeric values &lt;code&gt;array&lt;/code&gt; in either ascending or descending.&lt;br /&gt;
-For example,&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;sort([1,2,3,4,5,4,3,2,1])
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;pre&gt;&lt;code&gt;[5, 4, 4, 3, 3, 2, 2, 1, 1]  
-&lt;/code&gt;&lt;/pre&gt;
-
-    &lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; Use the ideas and concepts from HW 4, in particular, how we found the minimum and maximum of arrays using recursive functions. Think of sorting as a problem of recursively finding the minimum or maximum of an array or its subsections.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def findMaxValMaxLoc(array):
-    lenArray = len(array)
-    if lenArray&amp;gt;1:
-        maxVal, maxLoc = findMaxValMaxLoc(array[1:])
-        if array[0]&amp;gt;maxVal:
-            return array[0], 0
-        else:
-            return maxVal, maxLoc + 1
-    elif lenArray==1:
-        return array[0], 0
-    else: # lenArray &amp;lt; 1
-        return None
-
-def sort(array):
-    if not array: return []
-    maxval, maxloc = findMaxValMaxLoc(array)
-    sortedArray = [maxval]
-    array.pop(maxloc)
-    for element in sort(array): sortedArray.append(element)
-    print(sortedArray)
-    return sortedArray
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/quiz/4-recursive-functions&quot;&gt;Quiz 4: Python - Recursive functions&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on March 29, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Quiz 3: Python variables, branches, loops, and functions]]></title>
-  <link rel="alternate" type="text/html" href="http:/DSP2021S/quiz/3-variables-branches-loops-functions"/>
-  <id>http:/DSP2021S/quiz/3-variables-branches-loops-functions</id>
-  <published>2021-03-22T00:00:00-05:00</published>
-  <updated>2021-03-22T00:00:00-05:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/DSP2021S</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;!--
-This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
-
-The following figure illustrates the grade distribution for this quiz.  
-&lt;figure&gt;
-    &lt;img src=&quot;http:/DSP2021S/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
-    &lt;figcaption style=&quot;text-align:center&quot;&gt;
-        Maximum possible points is 1.
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
---&gt;
-
-&lt;p&gt;This quiz aims at testing your basic knowledge of branching and looping and functions in Python. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to &lt;strong&gt;quiz/3/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name some of the roles and meanings of &lt;code&gt;_&lt;/code&gt; in Python scripts.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-See &lt;a href=&quot;https://www.cdslab.org/python/notes/values-variables-types/variables/variables.html#meanings-of-underscore-_-in-python&quot; target=&quot;_blank&quot;&gt;our Python lecture notes&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;A Geometric Series is defined by the following mathematical sequence,&lt;/p&gt;
-
-\[1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16} + \ldots = \sum^{\infty}_{n=0} \frac{1}{2^n} ~,\]
-
-    &lt;p&gt;A finite version of this sequence can be defined as the following,&lt;/p&gt;
-
-\[1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16} + \ldots  + \frac{1}{2^m} = \sum^{m}_{n=0} \frac{1}{2^n} ~,\]
-
-    &lt;p&gt;b) Write a function, using loops, that takes an input integer &lt;code&gt;m&lt;/code&gt; and computes the finite Geometric sum as defined above.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def getGeoSum(m):
-    &quot;&quot;&quot;
-    Compute geometric sum for a finite sequence of m elements.
-    &quot;&quot;&quot;
-    return sum([1/2**i for i in range(m)])
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Suppose you are given two lists of numbers,
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;even = [0,2,4,6,8]
-odd = [1,3,5,7,9]
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;p&gt;Write a &lt;strong&gt;one-line&lt;/strong&gt; Python statement (list comprehension) that gives a list &lt;code&gt;summ&lt;/code&gt; whose elements are the sum of the respective elements in the above two lists &lt;code&gt;odd&lt;/code&gt; and &lt;code&gt;even&lt;/code&gt;, that is,&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;summ
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;pre&gt;&lt;code&gt;[1, 5, 9, 13, 17]  
-&lt;/code&gt;&lt;/pre&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;even = [0,2,4,6,8]
-odd = [1,3,5,7,9]
-summ = [i+j for i,j in zip(odd,even)]
-summ
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;pre&gt;&lt;code&gt;[1, 5, 9, 13, 17]  
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Consider the following for-loop,
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;mylist = list(range(0,10,2))
-for item in mylist:
-    mylist.append(item+1)
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;p&gt;How many iterations does this for-loop perform before ending? Explain briefly why.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-This for-loop never ends! Because at each iteration, a new element is added to the end of the list. You can check if this is indeed the case by adding a print statement inside the loop,&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;mylist = list(range(0,10,2))
-for item in mylist:
-    mylist.append(item+1)
-    print(item)
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;pre&gt;&lt;code&gt;0  
-2  
-4  
-6  
-8  
-1  
-3  
-5  
-7  
-9  
-2  
-4  
-6  
-8  
-10  
-3  
-5  
-7  
-9  
-11  
-4  
-6  
-8  
-10  
-12  
-5  
-7  
-9  
-11  
-13  
-6  
-8  
-10  
-12  
-14  
-7  
-9  
-11   and the loop keeps printing forever!  
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-  &lt;li&gt;What is the type of the returned value from the following function?
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def print_msg(msg = &quot;&quot;):
-    return None if msg == &quot;&quot; else print(msg)
-&lt;/code&gt;&lt;/pre&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-In all cases, the function returns &lt;code&gt;None&lt;/code&gt;.&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;type(print_msg())
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;pre&gt;&lt;code&gt;NoneType
-&lt;/code&gt;&lt;/pre&gt;
-
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;type(print_msg(&quot;string&quot;))
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;pre&gt;&lt;code&gt;NoneType
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Fix the following code such that it yields the correct answer for the following test.
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def sub(value_pair):
-    &quot;&quot;&quot;
-    Return the difference between the two input values.
-    &quot;&quot;&quot;
-    finally = value_pair[1] - value_pair[0]
-    return finally
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;assertion = sub(1,3) == 2
-assertion
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;pre&gt;&lt;code&gt;True
-&lt;/code&gt;&lt;/pre&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-There are many ways to correct this function. Here is one way:&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def sub(value_pair):
-    &quot;&quot;&quot;
-    Return the difference between the two input values.
-    &quot;&quot;&quot;
-    return value_pair[1] - value_pair[0]
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;p&gt;Note the main issue was the use of &lt;code&gt;finally&lt;/code&gt; in the script which is a Python reserved word and cannot be used as variable name.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Fix the following code such that it yields the correct answer for the following test.
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def sum(values):
-    &quot;&quot;&quot;
-    Return the sum of the elements of the input ``values`` vector.
-    &quot;&quot;&quot;
-    sum = sum(values)
-    return sum
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;assertion = sum([1,2,3,4]) == 10
-assertion
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;pre&gt;&lt;code&gt;True
-&lt;/code&gt;&lt;/pre&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-There are many ways to correct this function. Here is one way:&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def sum(values):
-    &quot;&quot;&quot;
-    Return the sum of the elements of the input ``values`` vector.
-    &quot;&quot;&quot;
-    summ = 0
-    for val in values: summ += val
-    return summ
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;p&gt;Here is another computationally more efficient way:&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;import numpy as np
-def sum(values):
-    &quot;&quot;&quot;
-    Return the sum of the elements of the input ``values`` vector.
-    &quot;&quot;&quot;
-    return np.sum(values)
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/quiz/3-variables-branches-loops-functions&quot;&gt;Quiz 3: Python variables, branches, loops, and functions&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on March 22, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Homework 4: Python - Functions, modules, and data transfer]]></title>
-  <link rel="alternate" type="text/html" href="http:/DSP2021S/homework/4-python-functions-modules-data-transfer"/>
-  <id>http:/DSP2021S/homework/4-python-functions-modules-data-transfer</id>
-  <published>2021-03-12T00:00:00-06:00</published>
-  <updated>2021-03-12T00:00:00-06:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/DSP2021S</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    
-&lt;p&gt;♣ &lt;strong&gt;Due Date: Monday March 29, 2021 2:30 PM&lt;/strong&gt;. This homework aims at giving you some experience with recursive functions in Python.&lt;/p&gt;
-
-&lt;h2 id=&quot;functions&quot;&gt;Functions&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/isprime-recursive/isprime-recursive&quot; target=&quot;_blank&quot;&gt;Checking if an input is a prime number (via recursive function calls)? (only Python section)&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/fibonacci-sequence-via-recursive-function-calls/fibonacci-sequence-via-recursive-function-calls#hint-python&quot; target=&quot;_blank&quot;&gt;Computing the Fibonacci sequence via recursive function calls (only Python section)&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/finding-maximum-value-via-recursive-function/finding-maximum-value-via-recursive-function&quot; target=&quot;_blank&quot;&gt;Finding the maximum value of an array via recursive function calls&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/finding-maximum-location-via-recursive-function/finding-maximum-location-via-recursive-function&quot; target=&quot;_blank&quot;&gt;Finding the position of the maximum value of an array via recursive function calls&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/homework/4-python-functions-modules-data-transfer&quot;&gt;Homework 4: Python - Functions, modules, and data transfer&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on March 12, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Homework 3: Python - branches, looping, and functions]]></title>
-  <link rel="alternate" type="text/html" href="http:/DSP2021S/homework/3-python-branching-looping-functions"/>
-  <id>http:/DSP2021S/homework/3-python-branching-looping-functions</id>
-  <published>2021-03-03T00:00:00-06:00</published>
-  <updated>2021-03-03T00:00:00-06:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/DSP2021S</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    
-&lt;p&gt;♣ &lt;strong&gt;Due Date: Monday March 22, 2021 2:30 PM&lt;/strong&gt;. This homework aims at giving you some experience with branches and looping in Python.&lt;/p&gt;
-
-&lt;h2 id=&quot;branches&quot;&gt;Branches&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/python-single-line-input-string-manipulation/python-single-line-input-string-manipulation#problem-part-b&quot; target=&quot;_blank&quot;&gt;Single-line Python input and string manipulation (only part B)&lt;/a&gt;.
-    &lt;h2 id=&quot;looping&quot;&gt;Looping&lt;/h2&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/while-loop-to-for-loop/while-loop-to-for-loop&quot; target=&quot;_blank&quot;&gt;The while-loop implementation of for-loop&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/modifying-loop-index-value/modifying-loop-index-value&quot; target=&quot;_blank&quot;&gt;Modifying the index of a for-loop&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/precision-error-paradox/precision-error-paradox&quot; target=&quot;_blank&quot;&gt;Impact of machine precision on numerical computation&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/roundoff-error-paradox/roundoff-error-paradox&quot; target=&quot;_blank&quot;&gt;Impact of round-off errors on numerical computations&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/fibonacci-sequence-via-for-loop/fibonacci-sequence-via-for-loop#problem-part-python-a&quot; target=&quot;_blank&quot;&gt;Computing the Fibonacci sequence via for-loop (only Python section)&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/string-concatenation-using-for-loop/string-concatenation-using-for-loop#problem-python&quot; target=&quot;_blank&quot;&gt;String concatenation using for-loop (only Python section)&lt;/a&gt;.
-    &lt;h2 id=&quot;functions&quot;&gt;Functions&lt;/h2&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/implementing-gaussian-function/implementing-gaussian-function&quot; target=&quot;_blank&quot;&gt;Implementing the Bell-shaped (Gaussian) function&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/one-line-check-even-number/one-line-check-even-number&quot; target=&quot;_blank&quot;&gt;Check if number is even in one line function definition&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/largest-prime-number-smaller-than-input/largest-prime-number-smaller-than-input#problem-python&quot; target=&quot;_blank&quot;&gt;Getting the largest prime number smaller than the input value (only Python section)&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/homework/3-python-branching-looping-functions&quot;&gt;Homework 3: Python - branches, looping, and functions&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on March 03, 2021.&lt;/p&gt;</content>
 </entry>
 
 
@@ -816,234 +121,6 @@ def sum(values):
 
 
 <entry>
-  <title type="html"><![CDATA[Quiz 2: Programming history, Python values and variables]]></title>
-  <link rel="alternate" type="text/html" href="http:/DSP2021S/quiz/2-programming-history-python-values"/>
-  <id>http:/DSP2021S/quiz/2-programming-history-python-values</id>
-  <published>2021-02-26T00:00:00-06:00</published>
-  <updated>2021-02-26T00:00:00-06:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/DSP2021S</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;!--
-This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
-
-The following figure illustrates the grade distribution for this quiz.  
-&lt;figure&gt;
-    &lt;img src=&quot;http:/DSP2021S/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
-    &lt;figcaption style=&quot;text-align:center&quot;&gt;
-        Maximum possible points is 1.
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
---&gt;
-
-&lt;p&gt;This quiz aims at testing your basic knowledge of programming history and beginner Python programming. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to &lt;strong&gt;quiz/2/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;(A) What is the closest programming language to machine code (i.e., binary code)?&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-Assembly&lt;/p&gt;
-
-    &lt;p&gt;(B) Does it need interpretation in order to become machine-comprehensible?&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-Yes. An &lt;em&gt;Assembler&lt;/em&gt; interprets the program for the machine.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;(A) Name the oldest high-level programming language that is still in active daily use.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-Fortran&lt;/p&gt;
-
-    &lt;p&gt;(B) Approximately how many decades is it old? ($\pm15$ years is acceptable answer. the decade it was created is also an acceptable answer)&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-in 1950s&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;(A) Name a second-generation programming language.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-Assembly&lt;/p&gt;
-
-    &lt;p&gt;(B) Which language-generation are Fortran, C, C++, MATLAB, Python, R?&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-third, third, third, fourth, fourth, fourth&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;In what decades C, C++, and MATLAB/Python were created, respectively?&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-1970s, 1980s, 1980s, 1990s&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name an ancestor programming language of C.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-B&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name a programming language ancestor of C++.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-C, Simula&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name a programming language ancestor of MATLAB and a programming language ancestor of Python.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-Fortran/C&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What are the three common types of errors in computer programs? Provide an example for each category.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;syntax errors&lt;/li&gt;
-      &lt;li&gt;runtime errors&lt;/li&gt;
-      &lt;li&gt;semantic errors&lt;br /&gt;
-See the lecture notes for examples of each category.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Suppose you write a program that has memory leak. What type of programming error you dealing with?&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; runtime error&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the biggest integer (in base 10) that you could store in an &lt;code&gt;int32&lt;/code&gt; type?&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 2,147,483,647&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the difference between &lt;code&gt;int16&lt;/code&gt; and the &lt;code&gt;int64&lt;/code&gt; types?&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-1) &lt;code&gt;int16&lt;/code&gt; is only 16 bits storage, whereas &lt;code&gt;int64&lt;/code&gt; is 64 bits storage.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Write a &lt;strong&gt;single-line&lt;/strong&gt; python script, that applies the relevant Python string manipulator methods to this string,&lt;br /&gt;
-&lt;br /&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;Python Is Great For String Manipulation.
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;p&gt;and transforms it to the following string and and prints it on screen,&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;.noitalupinaMgnirtSroFtaerGsInohtyP
-&lt;/code&gt;&lt;/pre&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;print( &quot;Python Is Great For String Manipulation.&quot;.replace(' ','')[::-1] )
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;pre&gt;&lt;code&gt;.noitalupinaMgnirtSroFtaerGsInohtyP
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What are some popular usages of the underscore symbol &lt;code&gt;_&lt;/code&gt; in Python? Name and explain at least three.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-See the &lt;a href=&quot;https://www.cdslab.org/python/notes/values-variables-types/variables/variables.html#meanings-of-underscore-_-in-python&quot; target=&quot;_blank&quot;&gt;lecture notes&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create a tuple variable with only one element valued &lt;code&gt;1&lt;/code&gt;.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;a = (1,)
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Make a string from the following list, with one one-line of Python code.&lt;br /&gt;
-&lt;br /&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;mylist = ['The' , 'weather' , 'is' , 'rainy' , 'today' , 'and' , 'cold' , 'only' , '22' , 'F.']
-&lt;/code&gt;&lt;/pre&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;&quot; &quot;.join(mylist)
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;pre&gt;&lt;code&gt;'The weather is rainy today and cold only 22 F.'
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Suppose you have a Python string variable. Would you be able to change individual characters in the string variable? Explain why.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-No. Because strings are immutable objects in Python, meaning that one cannot change their states or modify parts of them once created.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Are tuple variables mutable objects? Can they be redefined?&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-No. Yes.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;How do you define an empty dictionary?&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;empty_dict = {} 
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;When an integer overflow happens in Python, what is the expected behavior (what value would be assigned to the overflowed variable)? You may explain with an example.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-The overflowed variable cycles and the value starts again from the smallest possible.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Suppose we have the following matrix. Write a dictionary representation of this matrix.
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;sparseMatrixList = [ [ 0 , 0 , 0 , 1 ]
-                   , [ 2 , 0 , 0 , 0 ]
-                   , [ 0 , 5 , 0 , 0 ]
-                   , [ 0 , 0 , 0 , 3 ]
-                   , [ 0 , 0 , 8 , 0 ]
-                   ]
-&lt;/code&gt;&lt;/pre&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Extra credit&lt;/strong&gt;: Suppose we have the following matrix. Write a sparse dictionary representation of this matrix (omitting zeros).
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;sparseMatrixList = [ [ 0 , 0 , 0 , 1 ]
-                   , [ 2 , 0 , 0 , 0 ]
-                   , [ 0 , 5 , 0 , 0 ]
-                   , [ 0 , 0 , 0 , 3 ]
-                   , [ 0 , 0 , 8 , 0 ]
-                   ]
-&lt;/code&gt;&lt;/pre&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Extra credit:&lt;/strong&gt; What are the three fundamental components of a Turing-complete language?&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;a way for accessing the memory&lt;/li&gt;
-      &lt;li&gt;a way for iteration&lt;/li&gt;
-      &lt;li&gt;a way for branching&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Extra credit:&lt;/strong&gt; How would you distinguish exponential behavior vs. power-law behavior (function) in a 2-dimensional plot?&lt;br /&gt;
-&lt;strong&gt;Hint&lt;/strong&gt;: Recall our discussion of the ENAIC project and the relative frequency of keywords such as “computer” in our programming.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-An exponential curve looks like a line only when the X-axis is plotted on log-scale.&lt;br /&gt;
-A power-law curve looks like a line only when both the X- and Y- axes are plotted on log-scale.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/quiz/2-programming-history-python-values&quot;&gt;Quiz 2: Programming history, Python values and variables&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on February 26, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
   <title type="html"><![CDATA[Lecture 3: Python - values, variables, and types]]></title>
   <link rel="alternate" type="text/html" href="http:/DSP2021S/lecture/3-beginner-python"/>
   <id>http:/DSP2021S/lecture/3-beginner-python</id>
@@ -1073,33 +150,6 @@ A power-law curve looks like a line only when both the X- and Y- axes are plotte
 
   
   &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/lecture/3-beginner-python&quot;&gt;Lecture 3: Python - values, variables, and types&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on February 10, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Homework 2: Python programming]]></title>
-  <link rel="alternate" type="text/html" href="http:/DSP2021S/homework/2-python-programming"/>
-  <id>http:/DSP2021S/homework/2-python-programming</id>
-  <published>2021-02-10T00:00:00-06:00</published>
-  <updated>2021-02-10T00:00:00-06:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/DSP2021S</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;p&gt;♣ &lt;strong&gt;Due Date: Friday Feb 26, 2021 1:00 PM&lt;/strong&gt;. This homework aims at giving you some experience with the syntax of Python and programming via Python.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/values-variables-types/values/values.html#exercise&quot; target=&quot;_blank&quot;&gt;Python values problems: 1, 2&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/values-variables-types/variables/variables.html#exercise&quot; target=&quot;_blank&quot;&gt;Python variables problems: 1, 2, 3, 4, 5, 6, 7, 8&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/homework/2-python-programming&quot;&gt;Homework 2: Python programming&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on February 10, 2021.&lt;/p&gt;</content>
 </entry>
 
 
@@ -1138,169 +188,6 @@ A power-law curve looks like a line only when both the X- and Y- axes are plotte
 
 
 <entry>
-  <title type="html"><![CDATA[Quiz 1: Version control system]]></title>
-  <link rel="alternate" type="text/html" href="http:/DSP2021S/quiz/1-version-control-system"/>
-  <id>http:/DSP2021S/quiz/1-version-control-system</id>
-  <published>2021-02-05T00:00:00-06:00</published>
-  <updated>2021-02-05T00:00:00-06:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/DSP2021S</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;!--
-This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
-
-The following figure illustrates the grade distribution for this quiz.  
-&lt;figure&gt;
-    &lt;img src=&quot;http:/DSP2021S/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
-    &lt;figcaption style=&quot;text-align:center&quot;&gt;
-        Maximum possible points is 1.
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
---&gt;
-
-&lt;p&gt;This quiz aims at testing your basic knowledge of Version Control System. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to &lt;strong&gt;quiz/1/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name the three generations of VCS. Briefly describe how each paradigm works and a problem that it resolves in the previous generation.
-&lt;br /&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-Local: All project files are tracked locally on a single computer.
-Centralized: All project files are tracked locally, but a full copy f the entire repository is shared between all team members, enabling collaboration.
-Distributed: Each team member has a full copy of the&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Which generation does &lt;code&gt;git&lt;/code&gt; software belong to?&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
-Distributed.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Which of the following Git commands can add all the &lt;strong&gt;new&lt;/strong&gt; and &lt;strong&gt;modified-existing&lt;/strong&gt; files to the staging area? choose all that apply.&lt;br /&gt;
-&lt;br /&gt;
-(A) &lt;code&gt;git add -A&lt;/code&gt;&lt;br /&gt;
-(B) &lt;code&gt;git add --A&lt;/code&gt;&lt;br /&gt;
-(C) &lt;code&gt;git add -all&lt;/code&gt;&lt;br /&gt;
-(D) &lt;code&gt;git add --all&lt;/code&gt;&lt;br /&gt;
-(E) &lt;code&gt;git add -u&lt;/code&gt;&lt;br /&gt;
-(F) &lt;code&gt;git add .&lt;/code&gt;&lt;br /&gt;
-(G) &lt;code&gt;git add .; git add -u&lt;/code&gt;&lt;br /&gt;
-(H) &lt;code&gt;git add .; git add --u&lt;/code&gt;&lt;br /&gt;
-(I) &lt;code&gt;git add -u; git add .&lt;/code&gt;&lt;br /&gt;
-(J) &lt;code&gt;git add --u; git add .&lt;/code&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer: A, D, G, F, I&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Which of the following Git commands &lt;strong&gt;both&lt;/strong&gt; stages and commits &lt;strong&gt;only modified and deleted files&lt;/strong&gt; but &lt;strong&gt;NOT&lt;/strong&gt; the &lt;em&gt;new files&lt;/em&gt; added to the repository since the last commit. Choose all that apply.&lt;br /&gt;
-&lt;br /&gt;
-(A) &lt;code&gt;git commit&lt;/code&gt;&lt;br /&gt;
-(B) &lt;code&gt;git commit -a&lt;/code&gt;&lt;br /&gt;
-(C) &lt;code&gt;git commit -am&lt;/code&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer: B, C&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Write down the Git command that lists all Git commands for you.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git help -a
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Write down the Git command that lists all branches for you.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git branch
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Write down the Git command that creates and checks out a new branch named &lt;code&gt;dev&lt;/code&gt; from the current branch.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git checkout -b dev
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Write down the Git command that lists all commits made to the project.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git log
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Perform the following tasks on a Git command-line on your computer and copy and paste the output to your quiz response file.&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;
-        &lt;p&gt;Initialize an empty project &lt;strong&gt;locally&lt;/strong&gt; on your system in a temporary folder. Copy the command and the Git output here.&lt;/p&gt;
-
-        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-        &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git init
-&lt;/code&gt;&lt;/pre&gt;
-        &lt;pre&gt;&lt;code&gt;Initialized empty Git repository in D:/Git/new/.git/
-&lt;/code&gt;&lt;/pre&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Add a &lt;code&gt;README.md&lt;/code&gt; file to this project and add your name to it, save it and close it, then stage and commit it.&lt;/p&gt;
-
-        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-        &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git add --all
-git commit -m&quot;adding readme file&quot;
-&lt;/code&gt;&lt;/pre&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Now create a new branch &lt;code&gt;dev&lt;/code&gt; from the current branch and switch to it.&lt;/p&gt;
-
-        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-        &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git checkout -b dev
-&lt;/code&gt;&lt;/pre&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Modify the &lt;code&gt;README.md&lt;/code&gt; file by removing your name. Then, stage and commit the changes to the new branch.&lt;/p&gt;
-
-        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-        &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git add --all
-git commit -m&quot;modifying the readme file&quot;
-&lt;/code&gt;&lt;/pre&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Now merge this &lt;code&gt;dev&lt;/code&gt; branch with your &lt;code&gt;main&lt;/code&gt; branch and delete the new branch that you just created.&lt;/p&gt;
-
-        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-        &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git checkout main
-git merge dev
-git branch -d dev
-&lt;/code&gt;&lt;/pre&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;List all existing branches in your project.&lt;/p&gt;
-
-        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
-        &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git branch
-&lt;/code&gt;&lt;/pre&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/quiz/1-version-control-system&quot;&gt;Quiz 1: Version control system&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on February 05, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
   <title type="html"><![CDATA[Lecture 1: Version Control Systems, Git, and GitHub]]></title>
   <link rel="alternate" type="text/html" href="http:/DSP2021S/lecture/1-vcs"/>
   <id>http:/DSP2021S/lecture/1-vcs</id>
@@ -1331,49 +218,6 @@ git branch -d dev
 
   
   &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/lecture/1-vcs&quot;&gt;Lecture 1: Version Control Systems, Git, and GitHub&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on January 20, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Homework 1: Version Control Using Git and Github]]></title>
-  <link rel="alternate" type="text/html" href="http:/DSP2021S/homework/1-vcs"/>
-  <id>http:/DSP2021S/homework/1-vcs</id>
-  <published>2021-01-20T00:00:00-06:00</published>
-  <updated>2021-01-20T00:00:00-06:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/DSP2021S</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;p&gt;♣ &lt;strong&gt;Due Date: Monday Feb 1, 2021 2:30 PM&lt;/strong&gt;. This homework aims at giving you some experience on how to create Git branches, develop your project on multiple branches, merge them, resolve potential conflicts between different branches upon merging, and finally how to delete them. It also gives you some experience with using other commonly-used Git commands.&lt;/p&gt;
-
-&lt;p&gt;Use the Markdown language to design a Github-interpretable README file for each of folders in your project for this course, and a Github web-page for your project. If you need help with Markdown, refer to the HW question below and our lecture notes for cheat-sheets.&lt;/p&gt;
-
-&lt;p&gt;Write your code sections of your answer in Markdown syntax.
-For example,&lt;br /&gt;
-&lt;code&gt;
-    ```bash  &lt;br /&gt;
-    $ git branch -d test  &lt;br /&gt;
-    error: Cannot delete branch 'test' checked out at 'C:/Users/Amir/git/foo'  &lt;br /&gt;
-    ```
-&lt;/code&gt;
-&lt;br /&gt;
-will display the following text highlighted as &lt;em&gt;bash&lt;/em&gt; code, in your &lt;em&gt;readme.md&lt;/em&gt; file (albeit, with different style and color).&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;$ git branch -d test
-error: Cannot delete branch 'test' checked out at 'C:/Users/Amir/git/foo'
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Only Part 1&lt;/strong&gt; of &lt;a href=&quot;https://www.cdslab.org/recipes/programming/version-control-using-git-github/version-control-using-git-github&quot; target=&quot;_blank&quot;&gt;Version-control using Git and GitHub&lt;/a&gt; (&lt;strong&gt;Due Monday Feb 1, 2021 at 2:30 pm&lt;/strong&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Only Part 2&lt;/strong&gt; of &lt;a href=&quot;https://www.cdslab.org/recipes/programming/version-control-using-git-github/version-control-using-git-github&quot; target=&quot;_blank&quot;&gt;Version-control using Git and GitHub&lt;/a&gt; (&lt;strong&gt;Due Friday Feb 5, 2021 at 1 pm&lt;/strong&gt;).&lt;/li&gt;
-&lt;/ol&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/homework/1-vcs&quot;&gt;Homework 1: Version Control Using Git and Github&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on January 20, 2021.&lt;/p&gt;</content>
 </entry>
 
 
@@ -1491,6 +335,369 @@ error: Cannot delete branch 'test' checked out at 'C:/Users/Amir/git/foo'
 
   
   &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/announcement/1-assessing-your-knowledge-and-interests&quot;&gt;Announcement 1: Assessing your programming knowledge and interests&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on January 20, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Announcement 0: Student-professor connection day]]></title>
+  <link rel="alternate" type="text/html" href="http:/DSP2021S/announcement/0-student-professor-connection-day"/>
+  <id>http:/DSP2021S/announcement/0-student-professor-connection-day</id>
+  <published>2021-01-20T00:00:00-06:00</published>
+  <updated>2021-01-20T00:00:00-06:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DSP2021S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;On the first day of our class, we will try to get to know each other and I will attempt to describe my research work and educational background for you, as well as what we should expect from this course. We will also discuss the survey that have filled out (or will do so) to better plan for our course.&lt;/p&gt;
+
+&lt;div class=&quot;post_toc&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;about-me-amir-the-instructor&quot;&gt;About me, Amir, the instructor&lt;/h2&gt;
+
+&lt;p&gt;I am a physicist and researcher, and currently a faculty member at &lt;a target=&quot;_blank&quot; href=&quot;https://www.uta.edu/physics/&quot;&gt;the Department of Physics&lt;/a&gt; as well as the Data Science Program in &lt;a target=&quot;_blank&quot; href=&quot;https://www.uta.edu/science/index.php&quot;&gt;The College of Science&lt;/a&gt; at &lt;a target=&quot;_blank&quot; href=&quot;https://www.uta.edu/&quot;&gt;The University of Texas at Arlington&lt;/a&gt;. You can find more information about me, our group, and our research at &lt;a target=&quot;_blank&quot; href=&quot;https://www.cdslab.org&quot;&gt;cdslab.org&lt;/a&gt;. Here is a summary of my life in a few pictures:&lt;/p&gt;
+
+&lt;p&gt;I was introduced to the world of information and computer programming around 1991 by my father and elder brother. By the end of elementary school, I was so impressed with and knew enough about computer software to write a few simple &lt;a target=&quot;_blank&quot; href=&quot; https://en.wikipedia.org/wiki/PC_game&quot;&gt;computer games&lt;/a&gt; in &lt;a target=&quot;_blank&quot; href=&quot;https://en.wikipedia.org/wiki/QBasic&quot;&gt;QBasic programming language&lt;/a&gt; on our first family personal computer, &lt;a target=&quot;_blank&quot; href=&quot;https://en.wikipedia.org/wiki/IBM_386SLC&quot;&gt;IBM 386&lt;/a&gt;. Here is an example of how computer games looked liked 30 years ago.&lt;/p&gt;
+
+&lt;div class=&quot;center&quot;&gt;
+&lt;div class=&quot;video-wrapper&quot;&gt;
+	&lt;div class=&quot;video-container&quot;&gt;
+        &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4TSF5sIgorA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+		&lt;!-- &lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/0XL8RNxzrdw?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!-- include.path must be given relative to site.url, which is the project's root directory --&gt;
+
+&lt;div style=&quot;display:block;text-align:center;margin-right:auto;margin-left:auto&quot;&gt;
+    &lt;figure&gt;
+        
+        &lt;a href=&quot;https://cdslaborg.github.io/connection/memoriesOfGreen.jpg&quot; target=&quot;_blank&quot;&gt;
+        
+            &lt;img src=&quot;https://cdslaborg.github.io/connection/memoriesOfGreen.jpg&quot; width=&quot;100%&quot; /&gt;
+        
+        &lt;/a&gt;
+        
+        
+            &lt;figcaption&gt;A portrait of me at high-school by my friends&lt;/figcaption&gt;
+        
+    &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;!-- include.path must be given relative to site.url, which is the project's root directory --&gt;
+
+&lt;div style=&quot;display:block;text-align:center;margin-right:auto;margin-left:auto&quot;&gt;
+    &lt;figure&gt;
+        
+        &lt;a href=&quot;https://cdslaborg.github.io/connection/EinsteinSandals.jpg&quot; target=&quot;_blank&quot;&gt;
+        
+            &lt;img src=&quot;https://cdslaborg.github.io/connection/EinsteinSandals.jpg&quot; width=&quot;100%&quot; /&gt;
+        
+        &lt;/a&gt;
+        
+        
+            &lt;figcaption&gt;What I imagined I'd do as a physicist&lt;/figcaption&gt;
+        
+    &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;!-- include.path must be given relative to site.url, which is the project's root directory --&gt;
+
+&lt;div style=&quot;display:block;text-align:center;margin-right:auto;margin-left:auto&quot;&gt;
+    &lt;figure&gt;
+        
+        &lt;a href=&quot;https://cdslaborg.github.io/connection/PhDdefense.gif&quot; target=&quot;_blank&quot;&gt;
+        
+            &lt;img src=&quot;https://cdslaborg.github.io/connection/PhDdefense.gif&quot; width=&quot;100%&quot; /&gt;
+        
+        &lt;/a&gt;
+        
+        
+            &lt;figcaption&gt;A scene from my Ph.D. defense&lt;/figcaption&gt;
+        
+    &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I never imagined a day I would use computer programming for scientific purposes. Nevertheless, there has been almost no single day that I have not used scientific programming for my work and research, ever since I entered graduate school.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-research-topics&quot;&gt;My research topics&lt;/h2&gt;
+
+&lt;p&gt;The following are a few examples of what I do nowadays as part of my scientific research at UT Austin.&lt;/p&gt;
+
+&lt;h3 id=&quot;theoretical-astrophysics&quot;&gt;Theoretical Astrophysics&lt;/h3&gt;
+
+&lt;p&gt;While my current focus of research is mathematical modelling of tumor growth and Monte Carlo samplers, I am and have been working in multiple branches of science and engineering for several years, from the subatomic world of &lt;a target=&quot;_blank&quot; href=&quot;https://en.wikipedia.org/wiki/Elementary_particle&quot;&gt;elementary particles&lt;/a&gt;, to the microscopic world of &lt;a target=&quot;_blank&quot; href=&quot;https://en.wikipedia.org/wiki/Macromolecule&quot;&gt;biological macromolecules&lt;/a&gt;, to &lt;a target=&quot;_blank&quot; href=&quot;https://en.wikipedia.org/wiki/Gamma-ray_burst&quot;&gt;astrophysical phenomena&lt;/a&gt; occurring on the grandest scales of the &lt;a target=&quot;_blank&quot; href=&quot;https://en.wikipedia.org/wiki/Observable_universe&quot;&gt;observable Universe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For several years of my research, I have been working on understanding Gamma-Ray Bursts (GRB) and their physics. Below is a movie of the moment a Short-duration GRB is generated from the merger of a binary Neutron star system.&lt;/p&gt;
+
+&lt;div class=&quot;center&quot;&gt;
+&lt;div class=&quot;video-wrapper&quot;&gt;
+	&lt;div class=&quot;video-container&quot;&gt;
+		&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/P2ESs1rPO_A?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/astro_1.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;theoretical-biology-bioinformatics&quot;&gt;Theoretical Biology, Bioinformatics&lt;/h3&gt;
+
+&lt;p&gt;I have also worked for a few years in the field of bioinformatics and evolutionary biology. The overarching goal in the field of protein bioinformatics and biophysics is to understand how proteins fold into their unique structure, and what determines the stability of the protein &lt;abbr title=&quot;3-Dimensional&quot;&gt;3D&lt;/abbr&gt; structure.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/bio_1.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/bio_2.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the workhorses of this field, is therefore &lt;a href=&quot;https://en.wikipedia.org/wiki/Molecular_dynamics&quot; target=&quot;_blank&quot;&gt;molecular dynamic simulation&lt;/a&gt; to probe the dynamics of proteins and their interactions with other molecules. The following is a 1.5ns molecular dynamics simulation of Human Influenza H1 Hemagglutinin protein (&lt;a href=&quot;https://www.rcsb.org/pdb/explore.do?structureId=1rd8&quot; target=&quot;_blank&quot;&gt;1RD8&lt;/a&gt;, chains AB).&lt;/p&gt;
+
+&lt;div class=&quot;center&quot;&gt;
+&lt;div class=&quot;video-wrapper&quot;&gt;
+	&lt;div class=&quot;video-container&quot;&gt;
+		&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/0XL8RNxzrdw?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;petroleum-engineering&quot;&gt;Petroleum Engineering&lt;/h3&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/petro_1.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;computational-oncology&quot;&gt;Computational Oncology&lt;/h3&gt;
+
+&lt;p&gt;What you see in the figures below, is a representation of the growth of Glioblastoma tumor cells in a Rat’s brain over time.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/onco_1.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/onco_2.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/onco_3.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;the-temporal-evolution-of-the-growth-of-glioma-tumor-in-rat&quot;&gt;The temporal evolution of the growth of Glioma tumor in rat&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/tvccZSliceSubplotWithXYlabWithTB_rad_00gy_1_t10.0.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/GBGlastLong.gif&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!--
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/tvccZSliceSubplotWithXYlabWithTB_rad_00gy_2_t12.0.png&quot; width=&quot;100%&quot;&gt;
+&lt;/figure&gt;&lt;br&gt;
+
+---  
+&lt;br&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/tvccZSliceSubplotWithXYlabWithTB_rad_00gy_3_t14.0.png&quot; width=&quot;100%&quot;&gt;
+&lt;/figure&gt;&lt;br&gt;
+
+---  
+&lt;br&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/tvccZSliceSubplotWithXYlabWithTB_rad_00gy_5_t16.0.png&quot; width=&quot;100%&quot;&gt;
+&lt;/figure&gt;&lt;br&gt;
+
+---  
+&lt;br&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/tvccZSliceSubplotWithXYlabWithTB_rad_00gy_6_t18.0.png&quot; width=&quot;100%&quot;&gt;
+&lt;/figure&gt;&lt;br&gt;
+
+---  
+&lt;br&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/tvccZSliceSubplotWithXYlabWithTB_rad_00gy_7_t20.0.png&quot; width=&quot;100%&quot;&gt;
+&lt;/figure&gt;&lt;br&gt;
+
+--&gt;
+
+&lt;h3 id=&quot;monte-carlo-simulation-and-integration-methods&quot;&gt;Monte Carlo Simulation and Integration Methods&lt;/h3&gt;
+
+&lt;p&gt;One of the fields on which my research is currently focused, is developing Monte Carlo optimizer/sampler and integrator algorithms for Bayesian inverse problems.&lt;/p&gt;
+
+&lt;h4 id=&quot;development-of-monte-carlo-sampling-algorithms&quot;&gt;Development of Monte Carlo sampling algorithms&lt;/h4&gt;
+
+&lt;p&gt;Below you see example animations of two &lt;a href=&quot;https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo&quot; target=&quot;_blank&quot;&gt;Markov Chain Monte Carlo&lt;/a&gt; (MCMC) samplers, both of which sample a double Gaussian-peak function, but with different MCMC sampling parameters.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/PDF_RS_H_Forever20ms.gif&quot; width=&quot;100%&quot; /&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;Example of highly-efficiency, but bad-mixing MCMC sampler.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/PDF_RS_L_Forever20ms.gif&quot; width=&quot;100%&quot; /&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;Example of low-efficiency, but good-mixing MCMC sampler.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;development-of-monte-carlo-integration-algorithms&quot;&gt;Development of Monte Carlo integration algorithms&lt;/h4&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/DRI.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/DLI.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/GR3D.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/GR2D.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/GR2D.gif&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/EB3D.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://cdslaborg.github.io/connection/EB2D.gif&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;biomedical-data-science&quot;&gt;Biomedical Data Science&lt;/h4&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!-- include.path must be given relative to site.url, which is the project's root directory --&gt;
+
+&lt;div style=&quot;display:block;text-align:center;margin-right:auto;margin-left:auto&quot;&gt;
+    &lt;figure&gt;
+        
+        &lt;a href=&quot;https://cdslaborg.github.io/connection/PT509_ST9501_SE00144_ADC0016.png&quot; target=&quot;_blank&quot;&gt;
+        
+            &lt;img src=&quot;https://cdslaborg.github.io/connection/PT509_ST9501_SE00144_ADC0016.png&quot; width=&quot;100%&quot; /&gt;
+        
+        &lt;/a&gt;
+        
+        
+    &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;!-- include.path must be given relative to site.url, which is the project's root directory --&gt;
+
+&lt;div style=&quot;display:block;text-align:center;margin-right:auto;margin-left:auto&quot;&gt;
+    &lt;figure&gt;
+        
+        &lt;a href=&quot;https://cdslaborg.github.io/connection/PT509_ST9501_SE00144_ADC0016_overlay.png&quot; target=&quot;_blank&quot;&gt;
+        
+            &lt;img src=&quot;https://cdslaborg.github.io/connection/PT509_ST9501_SE00144_ADC0016_overlay.png&quot; width=&quot;100%&quot; /&gt;
+        
+        &lt;/a&gt;
+        
+        
+    &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DSP2021S/announcement/0-student-professor-connection-day&quot;&gt;Announcement 0: Student-professor connection day&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DSP2021S&quot;&gt;DATA 1401 - Data Science with Python - Spring 2021 - MW 14:30-15:50 @ Teams&lt;/a&gt; on January 20, 2021.&lt;/p&gt;</content>
 </entry>
 
 </feed>
